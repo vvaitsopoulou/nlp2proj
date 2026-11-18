@@ -1,0 +1,23 @@
+ # --- virtual envs & caches ---
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- embeddings (re-downloaded by setup_vast.sh; never commit) ---
+*.zip
+*.vec
+glove/
+glove6B/
+glove.*.txt
+
+# --- trained weights & checkpoints (regenerable, heavy) ---
+*.pt
+*.pkl
+*.pickle
+**/model.json
+**/model.run.json
+
+# --- what we DO keep: small summaries ---
+# axis_*.csv, *_raw.json, variance.*, part1 result JSONs are small & worth tracking,
+# and are not matched by the rules above.
