@@ -1,0 +1,3 @@
+config,mean_acc,std,d_vs_anchor,P(better),P(rope),P(worse),verdict
+keep [anchor],0.6155,0.0044,0.0,0.0,1.0,0.0,anchor
+split hyphens,0.6171,0.0042,0.0016,0.028,0.969,0.003,equivalent

@@ -1,0 +1,4 @@
+config,mean_acc,std,d_vs_anchor,P(better),P(rope),P(worse),verdict
+frozen [anchor],0.6966,0.0064,0.0,0.0,1.0,0.0,anchor
+fine-tuned,0.7001,0.0063,0.0035,0.271,0.718,0.01,inconclusive
+random init,0.6335,0.0046,-0.0632,0.0,0.0,1.0,worse

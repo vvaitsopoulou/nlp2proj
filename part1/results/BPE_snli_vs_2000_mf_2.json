@@ -1,0 +1,9683 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Metaspace",
+    "replacement": "▁",
+    "prepend_scheme": "always",
+    "split": true
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "[UNK]",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "[UNK]": 0,
+      "!": 1,
+      "\"": 2,
+      "#": 3,
+      "$": 4,
+      "%": 5,
+      "&": 6,
+      "'": 7,
+      "(": 8,
+      ")": 9,
+      "*": 10,
+      "+": 11,
+      ",": 12,
+      "-": 13,
+      ".": 14,
+      "/": 15,
+      "0": 16,
+      "1": 17,
+      "2": 18,
+      "3": 19,
+      "4": 20,
+      "5": 21,
+      "6": 22,
+      "7": 23,
+      "8": 24,
+      "9": 25,
+      ":": 26,
+      ";": 27,
+      "<": 28,
+      "=": 29,
+      ">": 30,
+      "?": 31,
+      "@": 32,
+      "A": 33,
+      "B": 34,
+      "C": 35,
+      "D": 36,
+      "E": 37,
+      "F": 38,
+      "G": 39,
+      "H": 40,
+      "I": 41,
+      "J": 42,
+      "K": 43,
+      "L": 44,
+      "M": 45,
+      "N": 46,
+      "O": 47,
+      "P": 48,
+      "Q": 49,
+      "R": 50,
+      "S": 51,
+      "T": 52,
+      "U": 53,
+      "V": 54,
+      "W": 55,
+      "X": 56,
+      "Y": 57,
+      "Z": 58,
+      "[": 59,
+      "\\": 60,
+      "`": 61,
+      "a": 62,
+      "b": 63,
+      "c": 64,
+      "d": 65,
+      "e": 66,
+      "f": 67,
+      "g": 68,
+      "h": 69,
+      "i": 70,
+      "j": 71,
+      "k": 72,
+      "l": 73,
+      "m": 74,
+      "n": 75,
+      "o": 76,
+      "p": 77,
+      "q": 78,
+      "r": 79,
+      "s": 80,
+      "t": 81,
+      "u": 82,
+      "v": 83,
+      "w": 84,
+      "x": 85,
+      "y": 86,
+      "z": 87,
+      "▁": 88,
+      "▁a": 89,
+      "in": 90,
+      "ing": 91,
+      "▁t": 92,
+      "he": 93,
+      "▁w": 94,
+      "▁s": 95,
+      "an": 96,
+      "▁o": 97,
+      "re": 98,
+      "▁b": 99,
+      "▁A": 100,
+      "▁p": 101,
+      "is": 102,
+      "▁m": 103,
+      "▁in": 104,
+      "it": 105,
+      "le": 106,
+      "▁c": 107,
+      "▁the": 108,
+      "er": 109,
+      "▁is": 110,
+      "ar": 111,
+      "ro": 112,
+      "▁T": 113,
+      "▁h": 114,
+      "▁g": 115,
+      "nd": 116,
+      "▁f": 117,
+      "▁d": 118,
+      "la": 119,
+      "▁on": 120,
+      "om": 121,
+      "▁man": 122,
+      "al": 123,
+      "at": 124,
+      "ir": 125,
+      "en": 126,
+      "or": 127,
+      "▁of": 128,
+      "▁and": 129,
+      "▁are": 130,
+      "▁The": 131,
+      "▁st": 132,
+      "on": 133,
+      "ck": 134,
+      "ld": 135,
+      "ith": 136,
+      "▁with": 137,
+      "et": 138,
+      "▁to": 139,
+      "es": 140,
+      "▁wom": 141,
+      "id": 142,
+      "un": 143,
+      "lo": 144,
+      "op": 145,
+      "▁woman": 146,
+      "▁do": 147,
+      "hi": 148,
+      "king": 149,
+      "e.": 150,
+      "her": 151,
+      "wo": 152,
+      "and": 153,
+      "ople": 154,
+      "eople": 155,
+      "ed": 156,
+      "ear": 157,
+      "ut": 158,
+      "▁sh": 159,
+      "▁pla": 160,
+      "ra": 161,
+      "▁bo": 162,
+      "rou": 163,
+      "s.": 164,
+      "▁at": 165,
+      "ch": 166,
+      "▁play": 167,
+      "ic": 168,
+      "▁people": 169,
+      "ting": 170,
+      "▁l": 171,
+      "all": 172,
+      "▁Two": 173,
+      "ers": 174,
+      "▁re": 175,
+      "as": 176,
+      "irt": 177,
+      "▁y": 178,
+      "▁wear": 179,
+      "▁r": 180,
+      "ss": 181,
+      "▁n": 182,
+      "▁wearing": 183,
+      "▁an": 184,
+      "oun": 185,
+      "▁sit": 186,
+      "irl": 187,
+      "▁out": 188,
+      "ot": 189,
+      "ur": 190,
+      "▁girl": 191,
+      "wn": 192,
+      "▁his": 193,
+      "▁stand": 194,
+      "us": 195,
+      "▁co": 196,
+      "▁wh": 197,
+      "▁j": 198,
+      "▁boy": 199,
+      "▁dog": 200,
+      "ad": 201,
+      "▁be": 202,
+      "ide": 203,
+      "gh": 204,
+      "um": 205,
+      "▁e": 206,
+      "▁shirt": 207,
+      "▁ho": 208,
+      "oung": 209,
+      "el": 210,
+      "ite": 211,
+      "am": 212,
+      "▁wal": 213,
+      "▁lo": 214,
+      "hild": 215,
+      "▁playing": 216,
+      "ri": 217,
+      "▁whi": 218,
+      "▁fro": 219,
+      "▁young": 220,
+      "st": 221,
+      "▁wat": 222,
+      "▁th": 223,
+      "▁men": 224,
+      "lack": 225,
+      "lding": 226,
+      "ge": 227,
+      "▁white": 228,
+      "▁while": 229,
+      "▁black": 230,
+      "▁child": 231,
+      "ack": 232,
+      "▁sitting": 233,
+      "ue": 234,
+      "▁bl": 235,
+      "il": 236,
+      "up": 237,
+      "im": 238,
+      "ver": 239,
+      "▁grou": 240,
+      "▁ro": 241,
+      "ts": 242,
+      "▁blue": 243,
+      "▁her": 244,
+      "▁standing": 245,
+      "▁for": 246,
+      "ard": 247,
+      "▁loo": 248,
+      "▁red": 249,
+      "oo": 250,
+      "▁la": 251,
+      "ing.": 252,
+      "▁group": 253,
+      "▁stre": 254,
+      "y.": 255,
+      "▁k": 256,
+      "ent": 257,
+      "▁down": 258,
+      "nt": 259,
+      "ow": 260,
+      "ve": 261,
+      "ion": 262,
+      "▁street": 263,
+      "▁walking": 264,
+      "▁outs": 265,
+      "round": 266,
+      "ree": 267,
+      "ome": 268,
+      "ce": 269,
+      "bo": 270,
+      "▁ta": 271,
+      "▁he": 272,
+      "ct": 273,
+      "er.": 274,
+      "erson": 275,
+      "ying": 276,
+      "▁wor": 277,
+      "ach": 278,
+      "▁person": 279,
+      "▁front": 280,
+      "▁car": 281,
+      "▁sm": 282,
+      "ks": 283,
+      "low": 284,
+      "▁holding": 285,
+      "air": 286,
+      "▁bu": 287,
+      "▁S": 288,
+      "▁P": 289,
+      "▁two": 290,
+      "ping": 291,
+      "▁women": 292,
+      "ain": 293,
+      "▁run": 294,
+      "ke": 295,
+      "▁as": 296,
+      "▁po": 297,
+      "▁fi": 298,
+      "ress": 299,
+      "ul": 300,
+      "▁ra": 301,
+      "▁rid": 302,
+      "ark": 303,
+      "▁by": 304,
+      "▁up": 305,
+      "▁sw": 306,
+      "▁gra": 307,
+      "ght": 308,
+      "ren": 309,
+      "▁ne": 310,
+      "▁sk": 311,
+      "▁bi": 312,
+      "tle": 313,
+      "▁le": 314,
+      "▁their": 315,
+      "▁dress": 316,
+      "▁Th": 317,
+      "orm": 318,
+      "▁back": 319,
+      "▁There": 320,
+      "ther": 321,
+      "form": 322,
+      "▁looking": 323,
+      "row": 324,
+      "▁gu": 325,
+      "ball": 326,
+      "▁one": 327,
+      "ap": 328,
+      "red": 329,
+      "▁jum": 330,
+      "▁other": 331,
+      "reen": 332,
+      "▁People": 333,
+      "▁M": 334,
+      "ood": 335,
+      "▁An": 336,
+      "▁v": 337,
+      "one": 338,
+      "ble": 339,
+      "ind": 340,
+      "hing": 341,
+      "ure": 342,
+      "ag": 343,
+      "ving": 344,
+      "ly": 345,
+      "▁tra": 346,
+      "▁al": 347,
+      "▁Three": 348,
+      "▁green": 349,
+      "▁sn": 350,
+      "▁con": 351,
+      "em": 352,
+      "▁hat": 353,
+      "ning": 354,
+      "▁ch": 355,
+      "to": 356,
+      "ittle": 357,
+      "▁from": 358,
+      "▁sp": 359,
+      "▁children": 360,
+      "▁wa": 361,
+      "▁fo": 362,
+      "▁outside": 363,
+      "▁bro": 364,
+      "▁ma": 365,
+      "ide.": 366,
+      "es.": 367,
+      "che": 368,
+      "ian": 369,
+      "▁little": 370,
+      "ong": 371,
+      "cle": 372,
+      "rough": 373,
+      "▁te": 374,
+      "▁or": 375,
+      "▁lar": 376,
+      "▁over": 377,
+      "▁hand": 378,
+      "▁yel": 379,
+      "▁ball": 380,
+      "ru": 381,
+      "▁bui": 382,
+      "other": 383,
+      "▁snow": 384,
+      "▁some": 385,
+      "▁through": 386,
+      "▁large": 387,
+      "▁go": 388,
+      "▁has": 389,
+      "▁near": 390,
+      "▁yellow": 391,
+      "▁building": 392,
+      "xt": 393,
+      "▁old": 394,
+      "dy": 395,
+      "▁side": 396,
+      "▁li": 397,
+      "▁se": 398,
+      "▁so": 399,
+      "ay": 400,
+      "▁riding": 401,
+      "k.": 402,
+      "ig": 403,
+      "t.": 404,
+      "ors": 405,
+      "rowd": 406,
+      "▁brown": 407,
+      "▁bas": 408,
+      "▁clo": 409,
+      "▁next": 410,
+      "do": 411,
+      "▁running": 412,
+      "board": 413,
+      "lass": 414,
+      "▁into": 415,
+      "▁crowd": 416,
+      "▁watch": 417,
+      "ist": 418,
+      "▁it": 419,
+      "▁beach": 420,
+      "▁F": 421,
+      "ture": 422,
+      "▁C": 423,
+      "▁sc": 424,
+      "▁street.": 425,
+      "ate": 426,
+      "rying": 427,
+      "▁water": 428,
+      "▁per": 429,
+      "ling": 430,
+      "lee": 431,
+      "ating": 432,
+      "▁ar": 433,
+      "ground": 434,
+      "▁pic": 435,
+      "▁dressed": 436,
+      "ter": 437,
+      "▁jack": 438,
+      "anc": 439,
+      "▁off": 440,
+      "ink": 441,
+      "▁outside.": 442,
+      "▁another": 443,
+      "▁mo": 444,
+      "▁jacket": 445,
+      "▁small": 446,
+      "▁work": 447,
+      "▁around": 448,
+      "▁perform": 449,
+      "▁tal": 450,
+      "eld": 451,
+      "ans": 452,
+      "ps": 453,
+      "▁cam": 454,
+      "ff": 455,
+      "ycle": 456,
+      "cer": 457,
+      "▁girls": 458,
+      "▁dr": 459,
+      "▁picture": 460,
+      "▁com": 461,
+      "▁park": 462,
+      "ie": 463,
+      "'s": 464,
+      "▁table": 465,
+      "ick": 466,
+      "▁field": 467,
+      "▁read": 468,
+      "ph": 469,
+      "ud": 470,
+      "ount": 471,
+      "▁water.": 472,
+      "▁stands": 473,
+      "▁dogs": 474,
+      "wal": 475,
+      "▁sun": 476,
+      "▁ha": 477,
+      "ore": 478,
+      "ler": 479,
+      "a.": 480,
+      "▁kid": 481,
+      "get": 482,
+      "ool": 483,
+      "sh": 484,
+      "▁fa": 485,
+      "▁sits": 486,
+      "ight": 487,
+      "ange": 488,
+      "▁get": 489,
+      "▁cl": 490,
+      "te": 491,
+      "▁par": 492,
+      "▁outdo": 493,
+      "▁working": 494,
+      "▁gam": 495,
+      "▁that": 496,
+      "▁swim": 497,
+      "▁su": 498,
+      "▁ba": 499,
+      "▁beh": 500,
+      "▁behind": 501,
+      "itar": 502,
+      "▁blo": 503,
+      "▁sidewal": 504,
+      "ross": 505,
+      "▁air": 506,
+      "▁ph": 507,
+      "▁head": 508,
+      "▁guy": 509,
+      "▁shor": 510,
+      "und": 511,
+      "▁background": 512,
+      "les": 513,
+      "▁wait": 514,
+      "pp": 515,
+      "▁orange": 516,
+      "▁rock": 517,
+      "▁hair": 518,
+      "▁jumping": 519,
+      "ce.": 520,
+      "▁sur": 521,
+      "▁un": 522,
+      "▁slee": 523,
+      "▁Man": 524,
+      "▁W": 525,
+      "ction": 526,
+      "▁pink": 527,
+      "▁camer": 528,
+      "▁som": 529,
+      "eat": 530,
+      "▁looks": 531,
+      "▁talking": 532,
+      "▁top": 533,
+      "▁somet": 534,
+      "▁Some": 535,
+      "▁B": 536,
+      "▁mus": 537,
+      "ice": 538,
+      "▁pre": 539,
+      "▁player": 540,
+      "▁boys": 541,
+      "▁wall": 542,
+      "ch.": 543,
+      "lasses": 544,
+      "▁lady": 545,
+      "▁bik": 546,
+      "▁sho": 547,
+      "gether": 548,
+      "▁together": 549,
+      "ol": 550,
+      "▁coup": 551,
+      "▁plays": 552,
+      "by": 553,
+      "▁comp": 554,
+      "▁guitar": 555,
+      "ountain": 556,
+      "▁him": 557,
+      "ation": 558,
+      "qu": 559,
+      "▁watching": 560,
+      "▁clot": 561,
+      "▁bus": 562,
+      "▁abo": 563,
+      "se": 564,
+      "ip": 565,
+      "▁soc": 566,
+      "▁cat": 567,
+      "▁couple": 568,
+      "▁cit": 569,
+      "▁hold": 570,
+      "end": 571,
+      "et.": 572,
+      "▁taking": 573,
+      "ves": 574,
+      "▁pro": 575,
+      "▁bike": 576,
+      "▁skate": 577,
+      "▁wood": 578,
+      "▁danc": 579,
+      "▁je": 580,
+      "ants": 581,
+      "est": 582,
+      "▁walk": 583,
+      "▁ben": 584,
+      "age": 585,
+      "▁che": 586,
+      "ign": 587,
+      "▁food": 588,
+      "imb": 589,
+      "▁hel": 590,
+      "ine": 591,
+      "▁bic": 592,
+      "▁outdoor": 593,
+      "▁hors": 594,
+      "ak": 595,
+      "are": 596,
+      "ee": 597,
+      "ast": 598,
+      "ll": 599,
+      "▁walks": 600,
+      "▁O": 601,
+      "▁eating": 602,
+      "▁climb": 603,
+      "▁ad": 604,
+      "ale": 605,
+      "▁en": 606,
+      "ss.": 607,
+      "veral": 608,
+      "▁ins": 609,
+      "ent.": 610,
+      "ay.": 611,
+      "▁skateboard": 612,
+      "▁us": 613,
+      "▁beach.": 614,
+      "▁tre": 615,
+      "ill": 616,
+      "▁background.": 617,
+      "▁them": 618,
+      "▁being": 619,
+      "rick": 620,
+      "▁music": 621,
+      "▁each": 622,
+      "▁pain": 623,
+      "gg": 624,
+      "▁ac": 625,
+      "led": 626,
+      "▁sand": 627,
+      "▁road": 628,
+      "▁br": 629,
+      "ant": 630,
+      "▁gray": 631,
+      "▁older": 632,
+      "▁blond": 633,
+      "ne": 634,
+      "▁soccer": 635,
+      "▁doing": 636,
+      "▁shorts": 637,
+      "shirt": 638,
+      "▁building.": 639,
+      "▁swimm": 640,
+      "▁boat": 641,
+      "our": 642,
+      "ket": 643,
+      "mp": 644,
+      "way": 645,
+      "sing": 646,
+      "▁holds": 647,
+      "oto": 648,
+      "▁bal": 649,
+      "▁base": 650,
+      "▁pool": 651,
+      "▁hi": 652,
+      "▁mid": 653,
+      "▁As": 654,
+      "▁foot": 655,
+      "▁sing": 656,
+      "▁uni": 657,
+      "ub": 658,
+      "one.": 659,
+      "ok": 660,
+      "▁grass": 661,
+      "▁bicycle": 662,
+      "ches": 663,
+      "iling": 664,
+      "ell": 665,
+      "▁und": 666,
+      "▁team": 667,
+      "▁col": 668,
+      "h.": 669,
+      "dle": 670,
+      "▁shop": 671,
+      "▁dri": 672,
+      "▁pants": 673,
+      "▁carrying": 674,
+      "stru": 675,
+      "riend": 676,
+      "▁suit": 677,
+      "ward": 678,
+      "▁mountain": 679,
+      "▁along": 680,
+      "▁under": 681,
+      "▁Asian": 682,
+      "▁baby": 683,
+      "▁something": 684,
+      "▁kids": 685,
+      "▁dark": 686,
+      "▁waiting": 687,
+      "▁uniform": 688,
+      "▁flo": 689,
+      "▁sign": 690,
+      "▁photo": 691,
+      "▁fem": 692,
+      "▁about": 693,
+      "s,": 694,
+      "▁jeans": 695,
+      "▁who": 696,
+      "umb": 697,
+      "▁was": 698,
+      "▁baseball": 699,
+      "▁ex": 700,
+      "▁Four": 701,
+      "ful": 702,
+      "▁bar": 703,
+      "▁G": 704,
+      "ed.": 705,
+      "ive": 706,
+      "▁band": 707,
+      "▁fl": 708,
+      "▁mot": 709,
+      "ang": 710,
+      "▁chair": 711,
+      "rip": 712,
+      "▁long": 713,
+      "ies": 714,
+      "▁she": 715,
+      "▁pur": 716,
+      "▁de": 717,
+      "▁ground": 718,
+      "▁wind": 719,
+      "▁bag": 720,
+      "▁three": 721,
+      "▁mar": 722,
+      "▁room": 723,
+      "iv": 724,
+      "▁getting": 725,
+      "struction": 726,
+      "ire": 727,
+      "▁store": 728,
+      "▁ve": 729,
+      "ust": 730,
+      "lder": 731,
+      "jo": 732,
+      "▁fis": 733,
+      "▁field.": 734,
+      "▁dirt": 735,
+      "▁basket": 736,
+      "▁having": 737,
+      "▁rest": 738,
+      "kes": 739,
+      "▁ball.": 740,
+      "▁friend": 741,
+      "oking": 742,
+      "▁city": 743,
+      "▁motor": 744,
+      "ather": 745,
+      "▁performing": 746,
+      "mer": 747,
+      "▁train": 748,
+      "▁part": 749,
+      "▁park.": 750,
+      "▁tan": 751,
+      "▁att": 752,
+      "-h": 753,
+      "▁all": 754,
+      "ey": 755,
+      "▁arm": 756,
+      "▁drin": 757,
+      "▁female": 758,
+      "hes": 759,
+      "▁enjo": 760,
+      "ess": 761,
+      "▁Wom": 762,
+      "▁football": 763,
+      "▁jumps": 764,
+      "ry": 765,
+      "uring": 766,
+      "▁trying": 767,
+      "▁inside": 768,
+      "▁coat": 769,
+      "▁show": 770,
+      "▁Se": 771,
+      "ect": 772,
+      "▁pat": 773,
+      "▁sidewalk": 774,
+      "-shirt": 775,
+      "ck.": 776,
+      "▁surf": 777,
+      "▁male": 778,
+      "▁prep": 779,
+      "▁bot": 780,
+      "▁look": 781,
+      "▁fire": 782,
+      "▁window": 783,
+      "ers.": 784,
+      "▁sweat": 785,
+      "ican": 786,
+      "▁mic": 787,
+      "▁sa": 788,
+      "▁ten": 789,
+      "▁H": 790,
+      "▁dis": 791,
+      "▁I": 792,
+      "▁swimming": 793,
+      "▁op": 794,
+      "ft": 795,
+      "str": 796,
+      "▁game": 797,
+      "▁they": 798,
+      "▁can": 799,
+      "▁making": 800,
+      "▁Y": 801,
+      "▁using": 802,
+      "dd": 803,
+      "▁strip": 804,
+      "▁smiling": 805,
+      "▁helm": 806,
+      "▁sleeping": 807,
+      "▁micro": 808,
+      "▁cle": 809,
+      "ere": 810,
+      "▁bat": 811,
+      "▁whe": 812,
+      "▁construction": 813,
+      "▁not": 814,
+      "▁going": 815,
+      "▁N": 816,
+      "cl": 817,
+      "ily": 818,
+      "▁grass.": 819,
+      "▁reading": 820,
+      "▁glasses": 821,
+      "ple": 822,
+      "aring": 823,
+      "▁app": 824,
+      "▁toward": 825,
+      "nis": 826,
+      "cean": 827,
+      "ous": 828,
+      "ance": 829,
+      "▁Several": 830,
+      "▁ca": 831,
+      "▁players": 832,
+      "▁af": 833,
+      "or.": 834,
+      "▁ocean": 835,
+      "cing": 836,
+      "▁t-shirt": 837,
+      "▁cross": 838,
+      "very": 839,
+      "▁motorc": 840,
+      "▁camera": 841,
+      "ired": 842,
+      "▁tennis": 843,
+      "aur": 844,
+      "ile": 845,
+      "ys": 846,
+      "ching": 847,
+      "▁cap": 848,
+      "▁sidewalk.": 849,
+      "▁ag": 850,
+      "▁across": 851,
+      "▁middle": 852,
+      "▁outdoors.": 853,
+      "▁him.": 854,
+      "▁basketball": 855,
+      "▁new": 856,
+      "▁compet": 857,
+      "▁fla": 858,
+      "▁sl": 859,
+      "ort": 860,
+      "▁jump": 861,
+      "▁workers": 862,
+      "▁sung": 863,
+      "▁no": 864,
+      "▁hands": 865,
+      "▁ri": 866,
+      "▁rides": 867,
+      "▁ob": 868,
+      "▁runs": 869,
+      "▁mout": 870,
+      "▁restaur": 871,
+      "▁ste": 872,
+      "▁des": 873,
+      "▁fam": 874,
+      "▁horse": 875,
+      "hing.": 876,
+      "▁on.": 877,
+      "▁its": 878,
+      "▁bench": 879,
+      "▁helmet": 880,
+      "▁snow.": 881,
+      "▁adul": 882,
+      "man": 883,
+      "▁L": 884,
+      "age.": 885,
+      "▁game.": 886,
+      "▁color": 887,
+      "▁fe": 888,
+      "strum": 889,
+      "▁camera.": 890,
+      "▁instrum": 891,
+      "ull": 892,
+      "▁flow": 893,
+      "▁purple": 894,
+      "av": 895,
+      "▁D": 896,
+      "▁throw": 897,
+      "▁fore": 898,
+      "▁striped": 899,
+      "▁One": 900,
+      "ine.": 901,
+      "▁microph": 902,
+      "al.": 903,
+      "▁after": 904,
+      "▁eat": 905,
+      "▁face": 906,
+      "▁open": 907,
+      "▁hous": 908,
+      "▁it.": 909,
+      "ated": 910,
+      "▁stick": 911,
+      "fe": 912,
+      "▁have": 913,
+      "pe": 914,
+      "▁mark": 915,
+      "▁Men": 916,
+      "▁dancing": 917,
+      "rel": 918,
+      "▁motorcycle": 919,
+      "aning": 920,
+      "▁kit": 921,
+      "▁ski": 922,
+      "▁bri": 923,
+      "▁climbing": 924,
+      "▁tru": 925,
+      "orn": 926,
+      "▁swing": 927,
+      "▁light": 928,
+      "▁wall.": 929,
+      "▁during": 930,
+      "▁set": 931,
+      "▁fen": 932,
+      "▁bre": 933,
+      "▁together.": 934,
+      "▁pra": 935,
+      "ents": 936,
+      "▁pool.": 937,
+      "▁pas": 938,
+      "ition": 939,
+      "▁Young": 940,
+      "▁sunglasses": 941,
+      "▁anim": 942,
+      "▁trick": 943,
+      "ted": 944,
+      "▁bow": 945,
+      "▁pl": 946,
+      "▁home": 947,
+      "lderly": 948,
+      "▁ready": 949,
+      "▁high": 950,
+      "▁again": 951,
+      "▁art": 952,
+      "▁pol": 953,
+      "▁me": 954,
+      "▁mat": 955,
+      "▁tree": 956,
+      "▁di": 957,
+      "▁against": 958,
+      "ugh": 959,
+      "▁jo": 960,
+      "utting": 961,
+      "▁Child": 962,
+      "less": 963,
+      "▁drinking": 964,
+      "lored": 965,
+      "stum": 966,
+      "▁ev": 967,
+      "ird": 968,
+      "ac": 969,
+      "▁past": 970,
+      "▁laying": 971,
+      "▁bright": 972,
+      "▁costum": 973,
+      "▁very": 974,
+      "▁elderly": 975,
+      "on.": 976,
+      "▁day.": 977,
+      "gs": 978,
+      "ial": 979,
+      "▁cow": 980,
+      "▁enjoying": 981,
+      "▁toy": 982,
+      "aired": 983,
+      "br": 984,
+      "chen": 985,
+      "▁them.": 986,
+      "▁wooden": 987,
+      "inn": 988,
+      "pla": 989,
+      "▁road.": 990,
+      "ller": 991,
+      "▁big": 992,
+      "co": 993,
+      "-haired": 994,
+      "▁car.": 995,
+      "▁posing": 996,
+      "▁cou": 997,
+      "▁kitchen": 998,
+      "▁hill": 999,
+      "▁table.": 1000,
+      "fit": 1001,
+      "vel": 1002,
+      "▁family": 1003,
+      "▁board": 1004,
+      "▁spe": 1005,
+      "gra": 1006,
+      "▁hang": 1007,
+      "▁Woman": 1008,
+      "▁bear": 1009,
+      "app": 1010,
+      "▁rain": 1011,
+      "rella": 1012,
+      "▁busy": 1013,
+      "▁umb": 1014,
+      "▁umbrella": 1015,
+      "ses": 1016,
+      "ade": 1017,
+      "▁pract": 1018,
+      "▁stage": 1019,
+      "als": 1020,
+      "ation.": 1021,
+      "▁race": 1022,
+      "vered": 1023,
+      "▁people.": 1024,
+      "▁outfit": 1025,
+      "od": 1026,
+      "iz": 1027,
+      "way.": 1028,
+      "ycl": 1029,
+      "▁cre": 1030,
+      "▁river": 1031,
+      "room": 1032,
+      "▁surround": 1033,
+      "ron": 1034,
+      "▁pie": 1035,
+      "▁painting": 1036,
+      "▁kick": 1037,
+      "▁hu": 1038,
+      "▁night": 1039,
+      "ant.": 1040,
+      "ject": 1041,
+      "▁bike.": 1042,
+      "▁Children": 1043,
+      "▁shirt,": 1044,
+      "▁worker": 1045,
+      "▁Someone": 1046,
+      "ley": 1047,
+      "ries": 1048,
+      "▁chas": 1049,
+      "▁colorful": 1050,
+      "ris": 1051,
+      "▁ice": 1052,
+      "▁pap": 1053,
+      "▁cell": 1054,
+      "▁towards": 1055,
+      "▁tr": 1056,
+      "▁crowd.": 1057,
+      "ty": 1058,
+      "vers": 1059,
+      "▁guys": 1060,
+      "ym": 1061,
+      "▁\"": 1062,
+      "ny": 1063,
+      "▁shirt.": 1064,
+      "▁other.": 1065,
+      "▁bes": 1066,
+      "chool": 1067,
+      "▁store.": 1068,
+      "▁pus": 1069,
+      "▁singing": 1070,
+      "▁clothing": 1071,
+      "▁takes": 1072,
+      "▁cont": 1073,
+      "ment": 1074,
+      "▁photogra": 1075,
+      "▁stud": 1076,
+      "▁shopping": 1077,
+      "▁ride": 1078,
+      "▁gi": 1079,
+      "▁brick": 1080,
+      "▁stair": 1081,
+      "sel": 1082,
+      "▁drum": 1083,
+      "ke.": 1084,
+      "▁laugh": 1085,
+      "p.": 1086,
+      "▁there": 1087,
+      "sc": 1088,
+      "ddler": 1089,
+      "urn": 1090,
+      "▁win": 1091,
+      "ched": 1092,
+      "▁day": 1093,
+      "▁dog.": 1094,
+      "unch": 1095,
+      "▁ocean.": 1096,
+      "▁mach": 1097,
+      "▁beside": 1098,
+      "▁covered": 1099,
+      "elling": 1100,
+      "▁They": 1101,
+      "ping.": 1102,
+      "xing": 1103,
+      "▁just": 1104,
+      "▁bench.": 1105,
+      "pack": 1106,
+      "▁school": 1107,
+      "▁hum": 1108,
+      "▁driving": 1109,
+      "▁tree.": 1110,
+      "▁met": 1111,
+      "▁air.": 1112,
+      "oot": 1113,
+      "▁several": 1114,
+      "▁toddler": 1115,
+      "▁ground.": 1116,
+      "▁short": 1117,
+      "▁E": 1118,
+      "▁runn": 1119,
+      "wing": 1120,
+      "▁practic": 1121,
+      "een": 1122,
+      "▁hard": 1123,
+      "ckey": 1124,
+      "▁kn": 1125,
+      "▁snowboard": 1126,
+      "▁ele": 1127,
+      "ines": 1128,
+      "▁four": 1129,
+      "▁am": 1130,
+      "▁friends": 1131,
+      "▁sub": 1132,
+      "▁pa": 1133,
+      "▁clothes": 1134,
+      "▁backpack": 1135,
+      "▁cellph": 1136,
+      "▁brid": 1137,
+      "▁picture.": 1138,
+      "▁cour": 1139,
+      "▁does": 1140,
+      "▁This": 1141,
+      "sp": 1142,
+      "▁happ": 1143,
+      "▁emp": 1144,
+      "▁book": 1145,
+      "▁shirts": 1146,
+      "▁many": 1147,
+      "▁teen": 1148,
+      "ien": 1149,
+      "▁R": 1150,
+      "able": 1151,
+      "▁mother": 1152,
+      "▁area.": 1153,
+      "▁cooking": 1154,
+      "▁make": 1155,
+      "▁piece": 1156,
+      "▁like": 1157,
+      "▁hot": 1158,
+      "▁away": 1159,
+      "▁watches": 1160,
+      "cks": 1161,
+      "ding": 1162,
+      "▁K": 1163,
+      "▁guitar.": 1164,
+      "▁sweater": 1165,
+      "▁something.": 1166,
+      "▁hit": 1167,
+      "▁dra": 1168,
+      "▁ey": 1169,
+      "▁stage.": 1170,
+      "▁preparing": 1171,
+      "ught": 1172,
+      "▁gym": 1173,
+      "▁boot": 1174,
+      "▁lea": 1175,
+      "▁tall": 1176,
+      "▁line": 1177,
+      "cor": 1178,
+      "uit": 1179,
+      "▁beard": 1180,
+      "be": 1181,
+      "▁fun": 1182,
+      "▁gat": 1183,
+      "ears": 1184,
+      "▁flag": 1185,
+      "▁room.": 1186,
+      "ists": 1187,
+      "▁body": 1188,
+      "▁bird": 1189,
+      "▁surrounded": 1190,
+      "▁vest": 1191,
+      "▁others": 1192,
+      "▁race.": 1193,
+      "▁cra": 1194,
+      "▁poin": 1195,
+      "aking": 1196,
+      "art": 1197,
+      "▁indo": 1198,
+      "▁colored": 1199,
+      "▁full": 1200,
+      "▁catch": 1201,
+      "hered": 1202,
+      "▁floor": 1203,
+      "▁comput": 1204,
+      "▁restaurant.": 1205,
+      "▁pole": 1206,
+      "▁skirt": 1207,
+      "out": 1208,
+      "▁offic": 1209,
+      "▁tank": 1210,
+      "ork": 1211,
+      "merican": 1212,
+      "ium": 1213,
+      "pt": 1214,
+      "▁selling": 1215,
+      "▁pul": 1216,
+      "▁concer": 1217,
+      "▁outdoors": 1218,
+      "▁food.": 1219,
+      "▁city.": 1220,
+      "▁gather": 1221,
+      "▁fil": 1222,
+      "hed": 1223,
+      "hicle": 1224,
+      "▁wheel": 1225,
+      "o.": 1226,
+      "▁vehicle": 1227,
+      "▁box": 1228,
+      "▁hanging": 1229,
+      "▁2": 1230,
+      "▁cas": 1231,
+      "upp": 1232,
+      "▁lake.": 1233,
+      "iew": 1234,
+      "▁cowbo": 1235,
+      "▁grassy": 1236,
+      "-s": 1237,
+      "arm": 1238,
+      "▁stop": 1239,
+      "▁her.": 1240,
+      "f.": 1241,
+      "▁both": 1242,
+      "ting.": 1243,
+      "▁lad": 1244,
+      "▁list": 1245,
+      "▁take": 1246,
+      "▁someone": 1247,
+      "▁corn": 1248,
+      "▁aud": 1249,
+      "▁mas": 1250,
+      "▁Ch": 1251,
+      "ish": 1252,
+      "▁onto": 1253,
+      "▁arms": 1254,
+      "▁cart": 1255,
+      "▁cur": 1256,
+      "▁hand.": 1257,
+      "rican": 1258,
+      "▁right": 1259,
+      "▁vol": 1260,
+      "▁tim": 1261,
+      "▁listen": 1262,
+      "rit": 1263,
+      "use": 1264,
+      "▁gathered": 1265,
+      "▁glass": 1266,
+      "▁truck": 1267,
+      "▁class": 1268,
+      "▁adults": 1269,
+      "ult": 1270,
+      "▁hats": 1271,
+      "▁rail": 1272,
+      "▁mouth.": 1273,
+      "▁gri": 1274,
+      "▁were": 1275,
+      "▁No": 1276,
+      "▁spor": 1277,
+      "by.": 1278,
+      "▁shou": 1279,
+      "let": 1280,
+      "▁area": 1281,
+      "▁racing": 1282,
+      "▁Five": 1283,
+      "▁what": 1284,
+      "▁aslee": 1285,
+      "▁ent": 1286,
+      "▁but": 1287,
+      "▁ballo": 1288,
+      "▁animal": 1289,
+      "gging": 1290,
+      "ious": 1291,
+      "ge.": 1292,
+      "▁roller": 1293,
+      "▁fishing": 1294,
+      "▁bet": 1295,
+      "ical": 1296,
+      "▁house.": 1297,
+      "▁pick": 1298,
+      "ally": 1299,
+      "▁Af": 1300,
+      "▁man.": 1301,
+      "▁ap": 1302,
+      "▁prepare": 1303,
+      "▁attem": 1304,
+      "bble": 1305,
+      "▁sunny": 1306,
+      "body": 1307,
+      "▁musician": 1308,
+      "▁we": 1309,
+      "▁stone": 1310,
+      "▁which": 1311,
+      "▁displa": 1312,
+      "ug": 1313,
+      "▁boo": 1314,
+      "▁cowboy": 1315,
+      "▁pass": 1316,
+      "▁buck": 1317,
+      "▁metal": 1318,
+      "ates": 1319,
+      "▁fountain": 1320,
+      "▁J": 1321,
+      "▁snowy": 1322,
+      "ve.": 1323,
+      "ruit": 1324,
+      "lic": 1325,
+      "▁roo": 1326,
+      "if": 1327,
+      "▁pe": 1328,
+      "▁dance": 1329,
+      "▁rela": 1330,
+      "ces": 1331,
+      "▁this": 1332,
+      "▁mouth": 1333,
+      "▁sleeping.": 1334,
+      "yclist": 1335,
+      "▁boat.": 1336,
+      "▁forest": 1337,
+      "▁hockey": 1338,
+      "▁conc": 1339,
+      "▁check": 1340,
+      "▁Women": 1341,
+      "▁trees": 1342,
+      "▁fruit": 1343,
+      "▁qu": 1344,
+      "iles": 1345,
+      "▁pres": 1346,
+      "▁convers": 1347,
+      "▁dinn": 1348,
+      "▁leaning": 1349,
+      "en.": 1350,
+      "ca": 1351,
+      "▁fall": 1352,
+      "▁equ": 1353,
+      "ors.": 1354,
+      "▁putting": 1355,
+      "leyball": 1356,
+      "ance.": 1357,
+      "▁numb": 1358,
+      "▁object": 1359,
+      "▁above": 1360,
+      "▁microphone": 1361,
+      "▁Many": 1362,
+      "▁squ": 1363,
+      "▁asian": 1364,
+      "▁practicing": 1365,
+      "▁view": 1366,
+      "▁throwing": 1367,
+      "▁pub": 1368,
+      "ion.": 1369,
+      "▁ladies": 1370,
+      "os": 1371,
+      "de": 1372,
+      "▁competition": 1373,
+      "▁volleyball": 1374,
+      "▁crowded": 1375,
+      "▁shoes": 1376,
+      "▁ce": 1377,
+      "ump": 1378,
+      "ane": 1379,
+      "ement": 1380,
+      "▁ban": 1381,
+      "▁down.": 1382,
+      "ches.": 1383,
+      "▁scar": 1384,
+      "▁opp": 1385,
+      "se.": 1386,
+      "▁gear": 1387,
+      "cas": 1388,
+      "▁bottle": 1389,
+      "ame": 1390,
+      "▁Bo": 1391,
+      "▁seated": 1392,
+      "ets": 1393,
+      "▁break": 1394,
+      "▁hom": 1395,
+      "ween": 1396,
+      "▁instrument": 1397,
+      "▁audien": 1398,
+      "▁head.": 1399,
+      "▁bed": 1400,
+      "▁between": 1401,
+      "▁dist": 1402,
+      "ber": 1403,
+      "ix": 1404,
+      "▁ser": 1405,
+      "▁stat": 1406,
+      "▁police": 1407,
+      "▁stro": 1408,
+      "ids": 1409,
+      "▁drink": 1410,
+      "▁res": 1411,
+      "rest": 1412,
+      "aut": 1413,
+      "▁human": 1414,
+      "▁African": 1415,
+      "ment.": 1416,
+      "nding": 1417,
+      "▁cleaning": 1418,
+      "▁adult": 1419,
+      "▁cla": 1420,
+      "▁gold": 1421,
+      "▁pose": 1422,
+      "▁gar": 1423,
+      "▁work.": 1424,
+      "iti": 1425,
+      "ctor": 1426,
+      "▁market": 1427,
+      "ity": 1428,
+      "▁jers": 1429,
+      "▁equip": 1430,
+      "entle": 1431,
+      "▁gr": 1432,
+      "▁pi": 1433,
+      "▁face.": 1434,
+      "▁path": 1435,
+      "▁public": 1436,
+      "▁cig": 1437,
+      "▁own": 1438,
+      "▁restaurant": 1439,
+      "▁kis": 1440,
+      "ert": 1441,
+      "ard.": 1442,
+      "▁blow": 1443,
+      "▁left": 1444,
+      "▁works": 1445,
+      "▁mountain.": 1446,
+      "▁floor.": 1447,
+      "▁count": 1448,
+      "▁attemp": 1449,
+      "▁cup": 1450,
+      "▁lot": 1451,
+      "▁performs": 1452,
+      "ou": 1453,
+      "▁shirtless": 1454,
+      "▁wed": 1455,
+      "ue.": 1456,
+      "▁smoking": 1457,
+      "▁microphone.": 1458,
+      "▁writ": 1459,
+      "▁giving": 1460,
+      "▁balloon": 1461,
+      "▁Girl": 1462,
+      "iling.": 1463,
+      "▁track": 1464,
+      "▁chasing": 1465,
+      "▁scen": 1466,
+      "▁hands.": 1467,
+      "▁ind": 1468,
+      "fore": 1469,
+      "▁event.": 1470,
+      "▁pot": 1471,
+      "▁home.": 1472,
+      "▁gentle": 1473,
+      "▁photograp": 1474,
+      "▁skateboarder": 1475,
+      "▁makes": 1476,
+      "az": 1477,
+      "▁graff": 1478,
+      "▁cream": 1479,
+      "▁paper": 1480,
+      "fet": 1481,
+      "▁glo": 1482,
+      "▁door": 1483,
+      "▁figh": 1484,
+      "▁appears": 1485,
+      "ering": 1486,
+      "▁smiles": 1487,
+      "▁alone": 1488,
+      "iding": 1489,
+      "▁before": 1490,
+      "▁concre": 1491,
+      "▁Nobody": 1492,
+      "▁American": 1493,
+      "lling": 1494,
+      "▁pit": 1495,
+      "▁ite": 1496,
+      "▁beaut": 1497,
+      "▁item": 1498,
+      "▁empty": 1499,
+      "▁father": 1500,
+      "▁uniforms": 1501,
+      "▁da": 1502,
+      "▁phone": 1503,
+      "▁kne": 1504,
+      "▁sand.": 1505,
+      "▁market.": 1506,
+      "▁playground": 1507,
+      "▁train.": 1508,
+      "▁woman.": 1509,
+      "▁pushing": 1510,
+      "▁night.": 1511,
+      "▁stra": 1512,
+      "iful": 1513,
+      "▁fence.": 1514,
+      "▁coff": 1515,
+      "▁graffiti": 1516,
+      "▁jersey": 1517,
+      "uff": 1518,
+      "▁man,": 1519,
+      "▁sweatshirt": 1520,
+      "eep": 1521,
+      "att": 1522,
+      "aret": 1523,
+      "▁hood": 1524,
+      "▁walking.": 1525,
+      "cture": 1526,
+      "-hair": 1527,
+      "▁cigaret": 1528,
+      "▁shovel": 1529,
+      "▁dire": 1530,
+      "▁up.": 1531,
+      "▁asleep": 1532,
+      "▁where": 1533,
+      "▁bowl": 1534,
+      "ail": 1535,
+      "▁sil": 1536,
+      "▁wears": 1537,
+      "▁poses": 1538,
+      "ugg": 1539,
+      "aged": 1540,
+      "▁pictures": 1541,
+      "▁number": 1542,
+      "▁plast": 1543,
+      "▁window.": 1544,
+      "wn.": 1545,
+      "▁rider": 1546,
+      "▁hill.": 1547,
+      "▁few": 1548,
+      "▁str": 1549,
+      "iff": 1550,
+      "▁vend": 1551,
+      "▁house": 1552,
+      "▁smile": 1553,
+      "▁kitchen.": 1554,
+      "▁river.": 1555,
+      "▁bikes": 1556,
+      "ining": 1557,
+      "▁shore": 1558,
+      "attoo": 1559,
+      "▁showing": 1560,
+      "aching": 1561,
+      "▁3": 1562,
+      "▁trail": 1563,
+      "▁fish": 1564,
+      "▁vide": 1565,
+      "▁costume": 1566,
+      "▁plastic": 1567,
+      "▁gro": 1568,
+      "▁beautiful": 1569,
+      "▁bus.": 1570,
+      "ric": 1571,
+      "▁listening": 1572,
+      "hes.": 1573,
+      "▁plat": 1574,
+      "▁couch": 1575,
+      "▁sign.": 1576,
+      "▁ed": 1577,
+      "▁bed.": 1578,
+      "▁put": 1579,
+      "▁watch.": 1580,
+      "▁plaid": 1581,
+      "▁lying": 1582,
+      "pped": 1583,
+      "du": 1584,
+      "▁ramp": 1585,
+      "▁ladd": 1586,
+      "▁diff": 1587,
+      "▁son": 1588,
+      "▁cutting": 1589,
+      "ini": 1590,
+      "▁trees.": 1591,
+      "▁bicycle.": 1592,
+      "▁tattoo": 1593,
+      "▁pad": 1594,
+      "▁mil": 1595,
+      "ade.": 1596,
+      "▁track.": 1597,
+      "▁dig": 1598,
+      "spap": 1599,
+      "▁gol": 1600,
+      "lebr": 1601,
+      "▁newspap": 1602,
+      "▁cut": 1603,
+      "▁exp": 1604,
+      "▁hat.": 1605,
+      "▁celebr": 1606,
+      "▁im": 1607,
+      "▁ref": 1608,
+      "▁rep": 1609,
+      "▁rope": 1610,
+      "▁airp": 1611,
+      "▁good": 1612,
+      "▁mart": 1613,
+      "head": 1614,
+      "▁stru": 1615,
+      "ath": 1616,
+      "▁cir": 1617,
+      "ll.": 1618,
+      "▁subway": 1619,
+      "▁pulling": 1620,
+      "aw": 1621,
+      "nic": 1622,
+      "le.": 1623,
+      "▁horse.": 1624,
+      "▁smiling.": 1625,
+      "▁land": 1626,
+      "▁vi": 1627,
+      "▁mud": 1628,
+      "▁bunch": 1629,
+      "▁flying": 1630,
+      "cher": 1631,
+      "▁party.": 1632,
+      "▁watches.": 1633,
+      "▁elect": 1634,
+      "▁sky": 1635,
+      "▁biker": 1636,
+      "cu": 1637,
+      "▁lake": 1638,
+      "▁It": 1639,
+      "iness": 1640,
+      "▁men,": 1641,
+      "▁couch.": 1642,
+      "all.": 1643,
+      "▁veget": 1644,
+      "▁apron": 1645,
+      "▁pupp": 1646,
+      "▁ear": 1647,
+      "▁same": 1648,
+      "erent": 1649,
+      "▁crossing": 1650,
+      "ved": 1651,
+      "▁dre": 1652,
+      "▁see": 1653,
+      "▁rocks": 1654,
+      "▁bar.": 1655,
+      "▁rode": 1656,
+      "▁fence": 1657,
+      "▁truck.": 1658,
+      "ung": 1659,
+      "▁blan": 1660,
+      "▁Kids": 1661,
+      "▁St": 1662,
+      "irst": 1663,
+      "▁painted": 1664,
+      "▁martial": 1665,
+      "▁different": 1666,
+      "▁gets": 1667,
+      "bb": 1668,
+      "ely": 1669,
+      "▁mem": 1670,
+      "ession": 1671,
+      "ined": 1672,
+      "▁form": 1673,
+      "▁eats": 1674,
+      "▁scarf": 1675,
+      "pe.": 1676,
+      "th": 1677,
+      "▁safet": 1678,
+      "▁hair.": 1679,
+      "▁concrete": 1680,
+      "ings": 1681,
+      "els": 1682,
+      "ones": 1683,
+      "ading": 1684,
+      "▁loc": 1685,
+      "▁wi": 1686,
+      "▁daught": 1687,
+      "igh": 1688,
+      "▁mon": 1689,
+      "▁bubble": 1690,
+      "▁eyes": 1691,
+      "▁rais": 1692,
+      "rist": 1693,
+      "side": 1694,
+      "▁horses": 1695,
+      "▁prepares": 1696,
+      "▁by.": 1697,
+      "▁business": 1698,
+      "▁how": 1699,
+      "▁laughing": 1700,
+      "▁tou": 1701,
+      "▁sports": 1702,
+      "▁turn": 1703,
+      "▁filled": 1704,
+      "▁gymn": 1705,
+      "▁music.": 1706,
+      "▁way": 1707,
+      "▁surfer": 1708,
+      "▁snowboarder": 1709,
+      "▁swims": 1710,
+      "▁mov": 1711,
+      "▁He": 1712,
+      "▁nap": 1713,
+      "ban": 1714,
+      "▁safety": 1715,
+      "▁wrest": 1716,
+      "▁gentleman": 1717,
+      "▁video": 1718,
+      "▁book.": 1719,
+      "▁steps": 1720,
+      "▁Do": 1721,
+      "▁fin": 1722,
+      "▁ath": 1723,
+      "▁bel": 1724,
+      "▁flowers": 1725,
+      "▁parking": 1726,
+      "▁star": 1727,
+      "▁prot": 1728,
+      "▁vegetable": 1729,
+      "▁leg": 1730,
+      "▁chur": 1731,
+      "ken": 1732,
+      "▁var": 1733,
+      "▁bowling": 1734,
+      "▁reads": 1735,
+      "▁inf": 1736,
+      "▁parked": 1737,
+      "uck": 1738,
+      "▁talks": 1739,
+      "▁flip": 1740,
+      "▁hat,": 1741,
+      "b.": 1742,
+      "▁post": 1743,
+      "ace": 1744,
+      "▁paint": 1745,
+      "ven": 1746,
+      "ivid": 1747,
+      "▁talking.": 1748,
+      "▁spla": 1749,
+      "▁made": 1750,
+      "▁carries": 1751,
+      "▁tub": 1752,
+      "▁clown": 1753,
+      "▁prof": 1754,
+      "▁students": 1755,
+      "ps.": 1756,
+      "▁playing.": 1757,
+      "▁ham": 1758,
+      "▁running.": 1759,
+      "ins": 1760,
+      "▁fighting": 1761,
+      "ser": 1762,
+      "▁gard": 1763,
+      "▁int": 1764,
+      "▁shot": 1765,
+      "▁mult": 1766,
+      "▁grocer": 1767,
+      "▁vis": 1768,
+      "ides": 1769,
+      "▁competing": 1770,
+      "▁cand": 1771,
+      "look": 1772,
+      "ered": 1773,
+      "▁talk": 1774,
+      "▁fol": 1775,
+      "in.": 1776,
+      "el.": 1777,
+      "ectat": 1778,
+      "▁midair": 1779,
+      "▁golf": 1780,
+      "▁first": 1781,
+      "▁inside.": 1782,
+      "▁kay": 1783,
+      "ctive": 1784,
+      "▁bathing": 1785,
+      "▁tries": 1786,
+      "▁plan": 1787,
+      "▁sold": 1788,
+      "▁cellphone": 1789,
+      "tern": 1790,
+      "bee": 1791,
+      "▁time": 1792,
+      "▁block": 1793,
+      "'t": 1794,
+      "▁chi": 1795,
+      "▁bridge": 1796,
+      "ice.": 1797,
+      "▁cars": 1798,
+      "▁winter": 1799,
+      "▁scoot": 1800,
+      "▁speaking": 1801,
+      "▁woods.": 1802,
+      "cting": 1803,
+      "▁toy.": 1804,
+      "▁edge": 1805,
+      "band": 1806,
+      "▁tour": 1807,
+      "▁people,": 1808,
+      "bor": 1809,
+      "vert": 1810,
+      "▁rocky": 1811,
+      "▁close": 1812,
+      "rown": 1813,
+      "▁phone.": 1814,
+      "▁chair.": 1815,
+      "▁structure": 1816,
+      "▁ty": 1817,
+      "▁coffee": 1818,
+      "cause": 1819,
+      "▁clean": 1820,
+      "▁competition.": 1821,
+      "ffic": 1822,
+      "▁staring": 1823,
+      "risbee": 1824,
+      "ies.": 1825,
+      "mo": 1826,
+      "ual": 1827,
+      "op.": 1828,
+      "▁because": 1829,
+      "▁tur": 1830,
+      "▁ves": 1831,
+      "▁wet": 1832,
+      "▁viol": 1833,
+      "▁cliff": 1834,
+      "▁indoors.": 1835,
+      "men": 1836,
+      "▁lapt": 1837,
+      "▁teams": 1838,
+      "avy": 1839,
+      "room.": 1840,
+      "▁bald": 1841,
+      "▁fight": 1842,
+      "▁card": 1843,
+      "arn": 1844,
+      "▁scul": 1845,
+      "eling": 1846,
+      "▁concert.": 1847,
+      "▁teenag": 1848,
+      "▁party": 1849,
+      "▁waits": 1850,
+      "▁wedding": 1851,
+      "self": 1852,
+      "▁bare": 1853,
+      "▁bath": 1854,
+      "▁gre": 1855,
+      "lat": 1856,
+      "▁computer": 1857,
+      "▁sitting.": 1858,
+      "▁shop.": 1859,
+      "▁sad": 1860,
+      "▁beer": 1861,
+      "▁Ind": 1862,
+      "ater": 1863,
+      "ord": 1864,
+      "▁bur": 1865,
+      "▁neck": 1866,
+      "▁stroller": 1867,
+      "ging": 1868,
+      "ette": 1869,
+      "▁artist": 1870,
+      "▁produ": 1871,
+      "▁out.": 1872,
+      "▁man's": 1873,
+      "▁leap": 1874,
+      "▁trun": 1875,
+      "▁happy": 1876,
+      "▁facing": 1877,
+      "▁tow": 1878,
+      "ker": 1879,
+      "▁sell": 1880,
+      "▁life": 1881,
+      "▁dancing.": 1882,
+      "▁chairs": 1883,
+      "▁gun": 1884,
+      "▁gogg": 1885,
+      "icip": 1886,
+      "ry.": 1887,
+      "▁skier": 1888,
+      "▁individ": 1889,
+      "▁pile": 1890,
+      "▁marath": 1891,
+      "▁drinks": 1892,
+      "ger": 1893,
+      "▁traffic": 1894,
+      "▁arts": 1895,
+      "▁photograph": 1896,
+      "▁child.": 1897,
+      "▁foreground": 1898,
+      "▁decor": 1899,
+      "▁only": 1900,
+      "▁onlook": 1901,
+      "ton": 1902,
+      "allow": 1903,
+      "▁moving": 1904,
+      "▁1": 1905,
+      "▁cellphone.": 1906,
+      "▁fixing": 1907,
+      "▁younger": 1908,
+      "▁seat": 1909,
+      "▁boots": 1910,
+      "aff": 1911,
+      "▁kar": 1912,
+      "alm": 1913,
+      "-slee": 1914,
+      "-aged": 1915,
+      "▁cheer": 1916,
+      "ike": 1917,
+      "▁sled": 1918,
+      "▁ped": 1919,
+      "▁jacket.": 1920,
+      "▁swinging": 1921,
+      "▁skateboarding": 1922,
+      "▁hiking": 1923,
+      "▁pointing": 1924,
+      "▁V": 1925,
+      "▁corner": 1926,
+      "▁photographer": 1927,
+      "▁kicking": 1928,
+      "▁tri": 1929,
+      "ony": 1930,
+      "▁Little": 1931,
+      "▁cook": 1932,
+      "▁dinner": 1933,
+      "itary": 1934,
+      "▁fountain.": 1935,
+      "▁sculp": 1936,
+      "▁cover": 1937,
+      "▁leans": 1938,
+      "▁spra": 1939,
+      "acher": 1940,
+      "▁resting": 1941,
+      "▁rac": 1942,
+      "▁lit": 1943,
+      "▁gloves": 1944,
+      "▁instruments": 1945,
+      "ly.": 1946,
+      "▁spectat": 1947,
+      "▁musical": 1948,
+      "cord": 1949,
+      "▁helping": 1950,
+      "▁should": 1951,
+      "▁event": 1952,
+      "yclists": 1953,
+      "▁bridge.": 1954,
+      "▁forest.": 1955,
+      "looking": 1956,
+      "▁path.": 1957,
+      "ristm": 1958,
+      "▁uses": 1959,
+      "▁machine.": 1960,
+      "▁well": 1961,
+      "▁act": 1962,
+      "▁obser": 1963,
+      "▁setting": 1964,
+      "▁picnic": 1965,
+      "▁skateboard.": 1966,
+      "▁exam": 1967,
+      "ustom": 1968,
+      "erc": 1969,
+      "▁tool": 1970,
+      "▁cold": 1971,
+      "▁trash": 1972,
+      "▁parade.": 1973,
+      "▁concert": 1974,
+      "▁stairs.": 1975,
+      "▁shi": 1976,
+      "▁project": 1977,
+      "▁don": 1978,
+      "ants.": 1979,
+      "▁feet": 1980,
+      "▁Grou": 1981,
+      "▁roof": 1982,
+      "▁daughter": 1983,
+      "▁fire.": 1984,
+      "▁tro": 1985,
+      "▁children.": 1986,
+      "▁writing": 1987,
+      "▁bag.": 1988,
+      "▁friends.": 1989,
+      "▁blond-hair": 1990,
+      "▁instrument.": 1991,
+      "▁among": 1992,
+      "▁climbs": 1993,
+      "▁bikini": 1994,
+      "ium.": 1995,
+      "▁attempting": 1996,
+      "rin": 1997,
+      "▁z": 1998,
+      "▁bull": 1999
+    },
+    "merges": [
+      [
+        "▁",
+        "a"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "in",
+        "g"
+      ],
+      [
+        "▁",
+        "t"
+      ],
+      [
+        "h",
+        "e"
+      ],
+      [
+        "▁",
+        "w"
+      ],
+      [
+        "▁",
+        "s"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "▁",
+        "o"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "▁",
+        "b"
+      ],
+      [
+        "▁",
+        "A"
+      ],
+      [
+        "▁",
+        "p"
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        "▁",
+        "m"
+      ],
+      [
+        "▁",
+        "in"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "▁",
+        "c"
+      ],
+      [
+        "▁t",
+        "he"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "▁",
+        "is"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "r",
+        "o"
+      ],
+      [
+        "▁",
+        "T"
+      ],
+      [
+        "▁",
+        "h"
+      ],
+      [
+        "▁",
+        "g"
+      ],
+      [
+        "n",
+        "d"
+      ],
+      [
+        "▁",
+        "f"
+      ],
+      [
+        "▁",
+        "d"
+      ],
+      [
+        "l",
+        "a"
+      ],
+      [
+        "▁o",
+        "n"
+      ],
+      [
+        "o",
+        "m"
+      ],
+      [
+        "▁m",
+        "an"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "i",
+        "r"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "▁o",
+        "f"
+      ],
+      [
+        "▁a",
+        "nd"
+      ],
+      [
+        "▁a",
+        "re"
+      ],
+      [
+        "▁T",
+        "he"
+      ],
+      [
+        "▁s",
+        "t"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "c",
+        "k"
+      ],
+      [
+        "l",
+        "d"
+      ],
+      [
+        "it",
+        "h"
+      ],
+      [
+        "▁w",
+        "ith"
+      ],
+      [
+        "e",
+        "t"
+      ],
+      [
+        "▁t",
+        "o"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "▁w",
+        "om"
+      ],
+      [
+        "i",
+        "d"
+      ],
+      [
+        "u",
+        "n"
+      ],
+      [
+        "l",
+        "o"
+      ],
+      [
+        "o",
+        "p"
+      ],
+      [
+        "▁wom",
+        "an"
+      ],
+      [
+        "▁d",
+        "o"
+      ],
+      [
+        "h",
+        "i"
+      ],
+      [
+        "k",
+        "ing"
+      ],
+      [
+        "e",
+        "."
+      ],
+      [
+        "he",
+        "r"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "an",
+        "d"
+      ],
+      [
+        "op",
+        "le"
+      ],
+      [
+        "e",
+        "ople"
+      ],
+      [
+        "e",
+        "d"
+      ],
+      [
+        "e",
+        "ar"
+      ],
+      [
+        "u",
+        "t"
+      ],
+      [
+        "▁s",
+        "h"
+      ],
+      [
+        "▁p",
+        "la"
+      ],
+      [
+        "r",
+        "a"
+      ],
+      [
+        "▁b",
+        "o"
+      ],
+      [
+        "ro",
+        "u"
+      ],
+      [
+        "s",
+        "."
+      ],
+      [
+        "▁a",
+        "t"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "▁pla",
+        "y"
+      ],
+      [
+        "i",
+        "c"
+      ],
+      [
+        "▁p",
+        "eople"
+      ],
+      [
+        "t",
+        "ing"
+      ],
+      [
+        "▁",
+        "l"
+      ],
+      [
+        "al",
+        "l"
+      ],
+      [
+        "▁T",
+        "wo"
+      ],
+      [
+        "er",
+        "s"
+      ],
+      [
+        "▁",
+        "re"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "ir",
+        "t"
+      ],
+      [
+        "▁",
+        "y"
+      ],
+      [
+        "▁w",
+        "ear"
+      ],
+      [
+        "▁",
+        "r"
+      ],
+      [
+        "s",
+        "s"
+      ],
+      [
+        "▁",
+        "n"
+      ],
+      [
+        "▁wear",
+        "ing"
+      ],
+      [
+        "▁a",
+        "n"
+      ],
+      [
+        "o",
+        "un"
+      ],
+      [
+        "▁s",
+        "it"
+      ],
+      [
+        "ir",
+        "l"
+      ],
+      [
+        "▁o",
+        "ut"
+      ],
+      [
+        "o",
+        "t"
+      ],
+      [
+        "u",
+        "r"
+      ],
+      [
+        "▁g",
+        "irl"
+      ],
+      [
+        "w",
+        "n"
+      ],
+      [
+        "▁h",
+        "is"
+      ],
+      [
+        "▁st",
+        "and"
+      ],
+      [
+        "u",
+        "s"
+      ],
+      [
+        "▁c",
+        "o"
+      ],
+      [
+        "▁w",
+        "h"
+      ],
+      [
+        "▁",
+        "j"
+      ],
+      [
+        "▁bo",
+        "y"
+      ],
+      [
+        "▁do",
+        "g"
+      ],
+      [
+        "a",
+        "d"
+      ],
+      [
+        "▁b",
+        "e"
+      ],
+      [
+        "id",
+        "e"
+      ],
+      [
+        "g",
+        "h"
+      ],
+      [
+        "u",
+        "m"
+      ],
+      [
+        "▁",
+        "e"
+      ],
+      [
+        "▁sh",
+        "irt"
+      ],
+      [
+        "▁h",
+        "o"
+      ],
+      [
+        "oun",
+        "g"
+      ],
+      [
+        "e",
+        "l"
+      ],
+      [
+        "it",
+        "e"
+      ],
+      [
+        "a",
+        "m"
+      ],
+      [
+        "▁w",
+        "al"
+      ],
+      [
+        "▁",
+        "lo"
+      ],
+      [
+        "hi",
+        "ld"
+      ],
+      [
+        "▁play",
+        "ing"
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "▁w",
+        "hi"
+      ],
+      [
+        "▁f",
+        "ro"
+      ],
+      [
+        "▁y",
+        "oung"
+      ],
+      [
+        "s",
+        "t"
+      ],
+      [
+        "▁w",
+        "at"
+      ],
+      [
+        "▁t",
+        "h"
+      ],
+      [
+        "▁m",
+        "en"
+      ],
+      [
+        "la",
+        "ck"
+      ],
+      [
+        "ld",
+        "ing"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "▁wh",
+        "ite"
+      ],
+      [
+        "▁whi",
+        "le"
+      ],
+      [
+        "▁b",
+        "lack"
+      ],
+      [
+        "▁c",
+        "hild"
+      ],
+      [
+        "a",
+        "ck"
+      ],
+      [
+        "▁sit",
+        "ting"
+      ],
+      [
+        "u",
+        "e"
+      ],
+      [
+        "▁b",
+        "l"
+      ],
+      [
+        "i",
+        "l"
+      ],
+      [
+        "u",
+        "p"
+      ],
+      [
+        "i",
+        "m"
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "▁g",
+        "rou"
+      ],
+      [
+        "▁",
+        "ro"
+      ],
+      [
+        "t",
+        "s"
+      ],
+      [
+        "▁bl",
+        "ue"
+      ],
+      [
+        "▁",
+        "her"
+      ],
+      [
+        "▁stand",
+        "ing"
+      ],
+      [
+        "▁f",
+        "or"
+      ],
+      [
+        "ar",
+        "d"
+      ],
+      [
+        "▁lo",
+        "o"
+      ],
+      [
+        "▁re",
+        "d"
+      ],
+      [
+        "o",
+        "o"
+      ],
+      [
+        "▁",
+        "la"
+      ],
+      [
+        "ing",
+        "."
+      ],
+      [
+        "▁grou",
+        "p"
+      ],
+      [
+        "▁st",
+        "re"
+      ],
+      [
+        "y",
+        "."
+      ],
+      [
+        "▁",
+        "k"
+      ],
+      [
+        "en",
+        "t"
+      ],
+      [
+        "▁do",
+        "wn"
+      ],
+      [
+        "n",
+        "t"
+      ],
+      [
+        "o",
+        "w"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "i",
+        "on"
+      ],
+      [
+        "▁stre",
+        "et"
+      ],
+      [
+        "▁wal",
+        "king"
+      ],
+      [
+        "▁out",
+        "s"
+      ],
+      [
+        "rou",
+        "nd"
+      ],
+      [
+        "re",
+        "e"
+      ],
+      [
+        "om",
+        "e"
+      ],
+      [
+        "c",
+        "e"
+      ],
+      [
+        "b",
+        "o"
+      ],
+      [
+        "▁t",
+        "a"
+      ],
+      [
+        "▁",
+        "he"
+      ],
+      [
+        "c",
+        "t"
+      ],
+      [
+        "er",
+        "."
+      ],
+      [
+        "ers",
+        "on"
+      ],
+      [
+        "y",
+        "ing"
+      ],
+      [
+        "▁w",
+        "or"
+      ],
+      [
+        "a",
+        "ch"
+      ],
+      [
+        "▁p",
+        "erson"
+      ],
+      [
+        "▁fro",
+        "nt"
+      ],
+      [
+        "▁c",
+        "ar"
+      ],
+      [
+        "▁s",
+        "m"
+      ],
+      [
+        "k",
+        "s"
+      ],
+      [
+        "lo",
+        "w"
+      ],
+      [
+        "▁ho",
+        "lding"
+      ],
+      [
+        "a",
+        "ir"
+      ],
+      [
+        "▁b",
+        "u"
+      ],
+      [
+        "▁",
+        "S"
+      ],
+      [
+        "▁",
+        "P"
+      ],
+      [
+        "▁t",
+        "wo"
+      ],
+      [
+        "p",
+        "ing"
+      ],
+      [
+        "▁wom",
+        "en"
+      ],
+      [
+        "a",
+        "in"
+      ],
+      [
+        "▁r",
+        "un"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "▁a",
+        "s"
+      ],
+      [
+        "▁p",
+        "o"
+      ],
+      [
+        "▁f",
+        "i"
+      ],
+      [
+        "re",
+        "ss"
+      ],
+      [
+        "u",
+        "l"
+      ],
+      [
+        "▁",
+        "ra"
+      ],
+      [
+        "▁r",
+        "id"
+      ],
+      [
+        "ar",
+        "k"
+      ],
+      [
+        "▁b",
+        "y"
+      ],
+      [
+        "▁",
+        "up"
+      ],
+      [
+        "▁s",
+        "w"
+      ],
+      [
+        "▁g",
+        "ra"
+      ],
+      [
+        "gh",
+        "t"
+      ],
+      [
+        "re",
+        "n"
+      ],
+      [
+        "▁n",
+        "e"
+      ],
+      [
+        "▁s",
+        "k"
+      ],
+      [
+        "▁b",
+        "i"
+      ],
+      [
+        "t",
+        "le"
+      ],
+      [
+        "▁",
+        "le"
+      ],
+      [
+        "▁the",
+        "ir"
+      ],
+      [
+        "▁d",
+        "ress"
+      ],
+      [
+        "▁T",
+        "h"
+      ],
+      [
+        "or",
+        "m"
+      ],
+      [
+        "▁b",
+        "ack"
+      ],
+      [
+        "▁The",
+        "re"
+      ],
+      [
+        "t",
+        "her"
+      ],
+      [
+        "f",
+        "orm"
+      ],
+      [
+        "▁loo",
+        "king"
+      ],
+      [
+        "ro",
+        "w"
+      ],
+      [
+        "▁g",
+        "u"
+      ],
+      [
+        "b",
+        "all"
+      ],
+      [
+        "▁on",
+        "e"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "re",
+        "d"
+      ],
+      [
+        "▁j",
+        "um"
+      ],
+      [
+        "▁o",
+        "ther"
+      ],
+      [
+        "re",
+        "en"
+      ],
+      [
+        "▁P",
+        "eople"
+      ],
+      [
+        "▁",
+        "M"
+      ],
+      [
+        "oo",
+        "d"
+      ],
+      [
+        "▁A",
+        "n"
+      ],
+      [
+        "▁",
+        "v"
+      ],
+      [
+        "on",
+        "e"
+      ],
+      [
+        "b",
+        "le"
+      ],
+      [
+        "in",
+        "d"
+      ],
+      [
+        "h",
+        "ing"
+      ],
+      [
+        "u",
+        "re"
+      ],
+      [
+        "a",
+        "g"
+      ],
+      [
+        "v",
+        "ing"
+      ],
+      [
+        "l",
+        "y"
+      ],
+      [
+        "▁t",
+        "ra"
+      ],
+      [
+        "▁a",
+        "l"
+      ],
+      [
+        "▁Th",
+        "ree"
+      ],
+      [
+        "▁g",
+        "reen"
+      ],
+      [
+        "▁s",
+        "n"
+      ],
+      [
+        "▁c",
+        "on"
+      ],
+      [
+        "e",
+        "m"
+      ],
+      [
+        "▁h",
+        "at"
+      ],
+      [
+        "n",
+        "ing"
+      ],
+      [
+        "▁c",
+        "h"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "it",
+        "tle"
+      ],
+      [
+        "▁fro",
+        "m"
+      ],
+      [
+        "▁s",
+        "p"
+      ],
+      [
+        "▁child",
+        "ren"
+      ],
+      [
+        "▁w",
+        "a"
+      ],
+      [
+        "▁f",
+        "o"
+      ],
+      [
+        "▁outs",
+        "ide"
+      ],
+      [
+        "▁b",
+        "ro"
+      ],
+      [
+        "▁m",
+        "a"
+      ],
+      [
+        "id",
+        "e."
+      ],
+      [
+        "es",
+        "."
+      ],
+      [
+        "c",
+        "he"
+      ],
+      [
+        "i",
+        "an"
+      ],
+      [
+        "▁l",
+        "ittle"
+      ],
+      [
+        "on",
+        "g"
+      ],
+      [
+        "c",
+        "le"
+      ],
+      [
+        "rou",
+        "gh"
+      ],
+      [
+        "▁t",
+        "e"
+      ],
+      [
+        "▁o",
+        "r"
+      ],
+      [
+        "▁l",
+        "ar"
+      ],
+      [
+        "▁o",
+        "ver"
+      ],
+      [
+        "▁h",
+        "and"
+      ],
+      [
+        "▁y",
+        "el"
+      ],
+      [
+        "▁b",
+        "all"
+      ],
+      [
+        "r",
+        "u"
+      ],
+      [
+        "▁bu",
+        "i"
+      ],
+      [
+        "ot",
+        "her"
+      ],
+      [
+        "▁sn",
+        "ow"
+      ],
+      [
+        "▁s",
+        "ome"
+      ],
+      [
+        "▁th",
+        "rough"
+      ],
+      [
+        "▁lar",
+        "ge"
+      ],
+      [
+        "▁g",
+        "o"
+      ],
+      [
+        "▁h",
+        "as"
+      ],
+      [
+        "▁n",
+        "ear"
+      ],
+      [
+        "▁yel",
+        "low"
+      ],
+      [
+        "▁bui",
+        "lding"
+      ],
+      [
+        "x",
+        "t"
+      ],
+      [
+        "▁o",
+        "ld"
+      ],
+      [
+        "d",
+        "y"
+      ],
+      [
+        "▁s",
+        "ide"
+      ],
+      [
+        "▁l",
+        "i"
+      ],
+      [
+        "▁s",
+        "e"
+      ],
+      [
+        "▁s",
+        "o"
+      ],
+      [
+        "a",
+        "y"
+      ],
+      [
+        "▁rid",
+        "ing"
+      ],
+      [
+        "k",
+        "."
+      ],
+      [
+        "i",
+        "g"
+      ],
+      [
+        "t",
+        "."
+      ],
+      [
+        "or",
+        "s"
+      ],
+      [
+        "row",
+        "d"
+      ],
+      [
+        "▁bro",
+        "wn"
+      ],
+      [
+        "▁b",
+        "as"
+      ],
+      [
+        "▁c",
+        "lo"
+      ],
+      [
+        "▁ne",
+        "xt"
+      ],
+      [
+        "d",
+        "o"
+      ],
+      [
+        "▁run",
+        "ning"
+      ],
+      [
+        "bo",
+        "ard"
+      ],
+      [
+        "la",
+        "ss"
+      ],
+      [
+        "▁in",
+        "to"
+      ],
+      [
+        "▁c",
+        "rowd"
+      ],
+      [
+        "▁wat",
+        "ch"
+      ],
+      [
+        "is",
+        "t"
+      ],
+      [
+        "▁",
+        "it"
+      ],
+      [
+        "▁be",
+        "ach"
+      ],
+      [
+        "▁",
+        "F"
+      ],
+      [
+        "t",
+        "ure"
+      ],
+      [
+        "▁",
+        "C"
+      ],
+      [
+        "▁s",
+        "c"
+      ],
+      [
+        "▁street",
+        "."
+      ],
+      [
+        "at",
+        "e"
+      ],
+      [
+        "r",
+        "ying"
+      ],
+      [
+        "▁wat",
+        "er"
+      ],
+      [
+        "▁p",
+        "er"
+      ],
+      [
+        "l",
+        "ing"
+      ],
+      [
+        "le",
+        "e"
+      ],
+      [
+        "at",
+        "ing"
+      ],
+      [
+        "▁a",
+        "r"
+      ],
+      [
+        "g",
+        "round"
+      ],
+      [
+        "▁p",
+        "ic"
+      ],
+      [
+        "▁dress",
+        "ed"
+      ],
+      [
+        "t",
+        "er"
+      ],
+      [
+        "▁j",
+        "ack"
+      ],
+      [
+        "an",
+        "c"
+      ],
+      [
+        "▁of",
+        "f"
+      ],
+      [
+        "in",
+        "k"
+      ],
+      [
+        "▁outs",
+        "ide."
+      ],
+      [
+        "▁an",
+        "other"
+      ],
+      [
+        "▁m",
+        "o"
+      ],
+      [
+        "▁jack",
+        "et"
+      ],
+      [
+        "▁sm",
+        "all"
+      ],
+      [
+        "▁wor",
+        "k"
+      ],
+      [
+        "▁a",
+        "round"
+      ],
+      [
+        "▁per",
+        "form"
+      ],
+      [
+        "▁t",
+        "al"
+      ],
+      [
+        "e",
+        "ld"
+      ],
+      [
+        "an",
+        "s"
+      ],
+      [
+        "p",
+        "s"
+      ],
+      [
+        "▁c",
+        "am"
+      ],
+      [
+        "f",
+        "f"
+      ],
+      [
+        "y",
+        "cle"
+      ],
+      [
+        "c",
+        "er"
+      ],
+      [
+        "▁girl",
+        "s"
+      ],
+      [
+        "▁d",
+        "r"
+      ],
+      [
+        "▁pic",
+        "ture"
+      ],
+      [
+        "▁c",
+        "om"
+      ],
+      [
+        "▁p",
+        "ark"
+      ],
+      [
+        "i",
+        "e"
+      ],
+      [
+        "'",
+        "s"
+      ],
+      [
+        "▁ta",
+        "ble"
+      ],
+      [
+        "i",
+        "ck"
+      ],
+      [
+        "▁fi",
+        "eld"
+      ],
+      [
+        "▁re",
+        "ad"
+      ],
+      [
+        "p",
+        "h"
+      ],
+      [
+        "u",
+        "d"
+      ],
+      [
+        "oun",
+        "t"
+      ],
+      [
+        "▁wat",
+        "er."
+      ],
+      [
+        "▁stand",
+        "s"
+      ],
+      [
+        "▁dog",
+        "s"
+      ],
+      [
+        "w",
+        "al"
+      ],
+      [
+        "▁s",
+        "un"
+      ],
+      [
+        "▁h",
+        "a"
+      ],
+      [
+        "o",
+        "re"
+      ],
+      [
+        "le",
+        "r"
+      ],
+      [
+        "a",
+        "."
+      ],
+      [
+        "▁k",
+        "id"
+      ],
+      [
+        "g",
+        "et"
+      ],
+      [
+        "oo",
+        "l"
+      ],
+      [
+        "s",
+        "h"
+      ],
+      [
+        "▁f",
+        "a"
+      ],
+      [
+        "▁sit",
+        "s"
+      ],
+      [
+        "i",
+        "ght"
+      ],
+      [
+        "an",
+        "ge"
+      ],
+      [
+        "▁g",
+        "et"
+      ],
+      [
+        "▁c",
+        "l"
+      ],
+      [
+        "t",
+        "e"
+      ],
+      [
+        "▁p",
+        "ar"
+      ],
+      [
+        "▁out",
+        "do"
+      ],
+      [
+        "▁wor",
+        "king"
+      ],
+      [
+        "▁g",
+        "am"
+      ],
+      [
+        "▁th",
+        "at"
+      ],
+      [
+        "▁sw",
+        "im"
+      ],
+      [
+        "▁s",
+        "u"
+      ],
+      [
+        "▁b",
+        "a"
+      ],
+      [
+        "▁be",
+        "h"
+      ],
+      [
+        "▁beh",
+        "ind"
+      ],
+      [
+        "it",
+        "ar"
+      ],
+      [
+        "▁b",
+        "lo"
+      ],
+      [
+        "▁side",
+        "wal"
+      ],
+      [
+        "ro",
+        "ss"
+      ],
+      [
+        "▁a",
+        "ir"
+      ],
+      [
+        "▁p",
+        "h"
+      ],
+      [
+        "▁he",
+        "ad"
+      ],
+      [
+        "▁gu",
+        "y"
+      ],
+      [
+        "▁sh",
+        "or"
+      ],
+      [
+        "u",
+        "nd"
+      ],
+      [
+        "▁back",
+        "ground"
+      ],
+      [
+        "le",
+        "s"
+      ],
+      [
+        "▁wa",
+        "it"
+      ],
+      [
+        "p",
+        "p"
+      ],
+      [
+        "▁or",
+        "ange"
+      ],
+      [
+        "▁ro",
+        "ck"
+      ],
+      [
+        "▁h",
+        "air"
+      ],
+      [
+        "▁jum",
+        "ping"
+      ],
+      [
+        "c",
+        "e."
+      ],
+      [
+        "▁s",
+        "ur"
+      ],
+      [
+        "▁",
+        "un"
+      ],
+      [
+        "▁s",
+        "lee"
+      ],
+      [
+        "▁M",
+        "an"
+      ],
+      [
+        "▁",
+        "W"
+      ],
+      [
+        "ct",
+        "ion"
+      ],
+      [
+        "▁p",
+        "ink"
+      ],
+      [
+        "▁cam",
+        "er"
+      ],
+      [
+        "▁s",
+        "om"
+      ],
+      [
+        "e",
+        "at"
+      ],
+      [
+        "▁loo",
+        "ks"
+      ],
+      [
+        "▁tal",
+        "king"
+      ],
+      [
+        "▁to",
+        "p"
+      ],
+      [
+        "▁som",
+        "et"
+      ],
+      [
+        "▁S",
+        "ome"
+      ],
+      [
+        "▁",
+        "B"
+      ],
+      [
+        "▁m",
+        "us"
+      ],
+      [
+        "ic",
+        "e"
+      ],
+      [
+        "▁p",
+        "re"
+      ],
+      [
+        "▁play",
+        "er"
+      ],
+      [
+        "▁boy",
+        "s"
+      ],
+      [
+        "▁w",
+        "all"
+      ],
+      [
+        "ch",
+        "."
+      ],
+      [
+        "lass",
+        "es"
+      ],
+      [
+        "▁la",
+        "dy"
+      ],
+      [
+        "▁bi",
+        "k"
+      ],
+      [
+        "▁sh",
+        "o"
+      ],
+      [
+        "get",
+        "her"
+      ],
+      [
+        "▁to",
+        "gether"
+      ],
+      [
+        "o",
+        "l"
+      ],
+      [
+        "▁co",
+        "up"
+      ],
+      [
+        "▁play",
+        "s"
+      ],
+      [
+        "b",
+        "y"
+      ],
+      [
+        "▁com",
+        "p"
+      ],
+      [
+        "▁gu",
+        "itar"
+      ],
+      [
+        "ount",
+        "ain"
+      ],
+      [
+        "▁h",
+        "im"
+      ],
+      [
+        "at",
+        "ion"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "▁watch",
+        "ing"
+      ],
+      [
+        "▁clo",
+        "t"
+      ],
+      [
+        "▁b",
+        "us"
+      ],
+      [
+        "▁a",
+        "bo"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "i",
+        "p"
+      ],
+      [
+        "▁so",
+        "c"
+      ],
+      [
+        "▁c",
+        "at"
+      ],
+      [
+        "▁coup",
+        "le"
+      ],
+      [
+        "▁c",
+        "it"
+      ],
+      [
+        "▁ho",
+        "ld"
+      ],
+      [
+        "e",
+        "nd"
+      ],
+      [
+        "et",
+        "."
+      ],
+      [
+        "▁ta",
+        "king"
+      ],
+      [
+        "v",
+        "es"
+      ],
+      [
+        "▁p",
+        "ro"
+      ],
+      [
+        "▁bi",
+        "ke"
+      ],
+      [
+        "▁sk",
+        "ate"
+      ],
+      [
+        "▁w",
+        "ood"
+      ],
+      [
+        "▁d",
+        "anc"
+      ],
+      [
+        "▁j",
+        "e"
+      ],
+      [
+        "an",
+        "ts"
+      ],
+      [
+        "es",
+        "t"
+      ],
+      [
+        "▁wal",
+        "k"
+      ],
+      [
+        "▁b",
+        "en"
+      ],
+      [
+        "a",
+        "ge"
+      ],
+      [
+        "▁c",
+        "he"
+      ],
+      [
+        "ig",
+        "n"
+      ],
+      [
+        "▁f",
+        "ood"
+      ],
+      [
+        "im",
+        "b"
+      ],
+      [
+        "▁he",
+        "l"
+      ],
+      [
+        "in",
+        "e"
+      ],
+      [
+        "▁b",
+        "ic"
+      ],
+      [
+        "▁outdo",
+        "or"
+      ],
+      [
+        "▁h",
+        "ors"
+      ],
+      [
+        "a",
+        "k"
+      ],
+      [
+        "a",
+        "re"
+      ],
+      [
+        "e",
+        "e"
+      ],
+      [
+        "as",
+        "t"
+      ],
+      [
+        "l",
+        "l"
+      ],
+      [
+        "▁wal",
+        "ks"
+      ],
+      [
+        "▁",
+        "O"
+      ],
+      [
+        "▁e",
+        "ating"
+      ],
+      [
+        "▁cl",
+        "imb"
+      ],
+      [
+        "▁a",
+        "d"
+      ],
+      [
+        "a",
+        "le"
+      ],
+      [
+        "▁",
+        "en"
+      ],
+      [
+        "s",
+        "s."
+      ],
+      [
+        "ver",
+        "al"
+      ],
+      [
+        "▁in",
+        "s"
+      ],
+      [
+        "ent",
+        "."
+      ],
+      [
+        "a",
+        "y."
+      ],
+      [
+        "▁skate",
+        "board"
+      ],
+      [
+        "▁",
+        "us"
+      ],
+      [
+        "▁beach",
+        "."
+      ],
+      [
+        "▁t",
+        "re"
+      ],
+      [
+        "il",
+        "l"
+      ],
+      [
+        "▁background",
+        "."
+      ],
+      [
+        "▁the",
+        "m"
+      ],
+      [
+        "▁be",
+        "ing"
+      ],
+      [
+        "ri",
+        "ck"
+      ],
+      [
+        "▁mus",
+        "ic"
+      ],
+      [
+        "▁e",
+        "ach"
+      ],
+      [
+        "▁p",
+        "ain"
+      ],
+      [
+        "g",
+        "g"
+      ],
+      [
+        "▁a",
+        "c"
+      ],
+      [
+        "le",
+        "d"
+      ],
+      [
+        "▁s",
+        "and"
+      ],
+      [
+        "▁ro",
+        "ad"
+      ],
+      [
+        "▁b",
+        "r"
+      ],
+      [
+        "an",
+        "t"
+      ],
+      [
+        "▁gra",
+        "y"
+      ],
+      [
+        "▁old",
+        "er"
+      ],
+      [
+        "▁blo",
+        "nd"
+      ],
+      [
+        "n",
+        "e"
+      ],
+      [
+        "▁soc",
+        "cer"
+      ],
+      [
+        "▁do",
+        "ing"
+      ],
+      [
+        "▁shor",
+        "ts"
+      ],
+      [
+        "sh",
+        "irt"
+      ],
+      [
+        "▁building",
+        "."
+      ],
+      [
+        "▁swim",
+        "m"
+      ],
+      [
+        "▁bo",
+        "at"
+      ],
+      [
+        "o",
+        "ur"
+      ],
+      [
+        "k",
+        "et"
+      ],
+      [
+        "m",
+        "p"
+      ],
+      [
+        "w",
+        "ay"
+      ],
+      [
+        "s",
+        "ing"
+      ],
+      [
+        "▁hold",
+        "s"
+      ],
+      [
+        "ot",
+        "o"
+      ],
+      [
+        "▁b",
+        "al"
+      ],
+      [
+        "▁bas",
+        "e"
+      ],
+      [
+        "▁p",
+        "ool"
+      ],
+      [
+        "▁h",
+        "i"
+      ],
+      [
+        "▁m",
+        "id"
+      ],
+      [
+        "▁A",
+        "s"
+      ],
+      [
+        "▁fo",
+        "ot"
+      ],
+      [
+        "▁s",
+        "ing"
+      ],
+      [
+        "▁un",
+        "i"
+      ],
+      [
+        "u",
+        "b"
+      ],
+      [
+        "on",
+        "e."
+      ],
+      [
+        "o",
+        "k"
+      ],
+      [
+        "▁gra",
+        "ss"
+      ],
+      [
+        "▁bic",
+        "ycle"
+      ],
+      [
+        "che",
+        "s"
+      ],
+      [
+        "il",
+        "ing"
+      ],
+      [
+        "el",
+        "l"
+      ],
+      [
+        "▁",
+        "und"
+      ],
+      [
+        "▁te",
+        "am"
+      ],
+      [
+        "▁co",
+        "l"
+      ],
+      [
+        "h",
+        "."
+      ],
+      [
+        "d",
+        "le"
+      ],
+      [
+        "▁sh",
+        "op"
+      ],
+      [
+        "▁d",
+        "ri"
+      ],
+      [
+        "▁p",
+        "ants"
+      ],
+      [
+        "▁car",
+        "rying"
+      ],
+      [
+        "st",
+        "ru"
+      ],
+      [
+        "ri",
+        "end"
+      ],
+      [
+        "▁su",
+        "it"
+      ],
+      [
+        "w",
+        "ard"
+      ],
+      [
+        "▁m",
+        "ountain"
+      ],
+      [
+        "▁al",
+        "ong"
+      ],
+      [
+        "▁und",
+        "er"
+      ],
+      [
+        "▁As",
+        "ian"
+      ],
+      [
+        "▁ba",
+        "by"
+      ],
+      [
+        "▁somet",
+        "hing"
+      ],
+      [
+        "▁kid",
+        "s"
+      ],
+      [
+        "▁d",
+        "ark"
+      ],
+      [
+        "▁wait",
+        "ing"
+      ],
+      [
+        "▁uni",
+        "form"
+      ],
+      [
+        "▁f",
+        "lo"
+      ],
+      [
+        "▁s",
+        "ign"
+      ],
+      [
+        "▁ph",
+        "oto"
+      ],
+      [
+        "▁f",
+        "em"
+      ],
+      [
+        "▁abo",
+        "ut"
+      ],
+      [
+        "s",
+        ","
+      ],
+      [
+        "▁je",
+        "ans"
+      ],
+      [
+        "▁wh",
+        "o"
+      ],
+      [
+        "um",
+        "b"
+      ],
+      [
+        "▁w",
+        "as"
+      ],
+      [
+        "▁base",
+        "ball"
+      ],
+      [
+        "▁e",
+        "x"
+      ],
+      [
+        "▁F",
+        "our"
+      ],
+      [
+        "f",
+        "ul"
+      ],
+      [
+        "▁b",
+        "ar"
+      ],
+      [
+        "▁",
+        "G"
+      ],
+      [
+        "ed",
+        "."
+      ],
+      [
+        "i",
+        "ve"
+      ],
+      [
+        "▁b",
+        "and"
+      ],
+      [
+        "▁f",
+        "l"
+      ],
+      [
+        "▁m",
+        "ot"
+      ],
+      [
+        "an",
+        "g"
+      ],
+      [
+        "▁ch",
+        "air"
+      ],
+      [
+        "ri",
+        "p"
+      ],
+      [
+        "▁l",
+        "ong"
+      ],
+      [
+        "i",
+        "es"
+      ],
+      [
+        "▁s",
+        "he"
+      ],
+      [
+        "▁p",
+        "ur"
+      ],
+      [
+        "▁d",
+        "e"
+      ],
+      [
+        "▁grou",
+        "nd"
+      ],
+      [
+        "▁w",
+        "ind"
+      ],
+      [
+        "▁b",
+        "ag"
+      ],
+      [
+        "▁th",
+        "ree"
+      ],
+      [
+        "▁m",
+        "ar"
+      ],
+      [
+        "▁ro",
+        "om"
+      ],
+      [
+        "i",
+        "v"
+      ],
+      [
+        "▁get",
+        "ting"
+      ],
+      [
+        "stru",
+        "ction"
+      ],
+      [
+        "i",
+        "re"
+      ],
+      [
+        "▁st",
+        "ore"
+      ],
+      [
+        "▁",
+        "ve"
+      ],
+      [
+        "us",
+        "t"
+      ],
+      [
+        "ld",
+        "er"
+      ],
+      [
+        "j",
+        "o"
+      ],
+      [
+        "▁f",
+        "is"
+      ],
+      [
+        "▁field",
+        "."
+      ],
+      [
+        "▁d",
+        "irt"
+      ],
+      [
+        "▁bas",
+        "ket"
+      ],
+      [
+        "▁ha",
+        "ving"
+      ],
+      [
+        "▁re",
+        "st"
+      ],
+      [
+        "k",
+        "es"
+      ],
+      [
+        "▁ball",
+        "."
+      ],
+      [
+        "▁f",
+        "riend"
+      ],
+      [
+        "o",
+        "king"
+      ],
+      [
+        "▁cit",
+        "y"
+      ],
+      [
+        "▁mot",
+        "or"
+      ],
+      [
+        "at",
+        "her"
+      ],
+      [
+        "▁perform",
+        "ing"
+      ],
+      [
+        "m",
+        "er"
+      ],
+      [
+        "▁tra",
+        "in"
+      ],
+      [
+        "▁par",
+        "t"
+      ],
+      [
+        "▁park",
+        "."
+      ],
+      [
+        "▁t",
+        "an"
+      ],
+      [
+        "▁at",
+        "t"
+      ],
+      [
+        "-",
+        "h"
+      ],
+      [
+        "▁al",
+        "l"
+      ],
+      [
+        "e",
+        "y"
+      ],
+      [
+        "▁ar",
+        "m"
+      ],
+      [
+        "▁dr",
+        "in"
+      ],
+      [
+        "▁fem",
+        "ale"
+      ],
+      [
+        "he",
+        "s"
+      ],
+      [
+        "▁en",
+        "jo"
+      ],
+      [
+        "es",
+        "s"
+      ],
+      [
+        "▁W",
+        "om"
+      ],
+      [
+        "▁foot",
+        "ball"
+      ],
+      [
+        "▁jum",
+        "ps"
+      ],
+      [
+        "r",
+        "y"
+      ],
+      [
+        "ur",
+        "ing"
+      ],
+      [
+        "▁t",
+        "rying"
+      ],
+      [
+        "▁ins",
+        "ide"
+      ],
+      [
+        "▁co",
+        "at"
+      ],
+      [
+        "▁sh",
+        "ow"
+      ],
+      [
+        "▁S",
+        "e"
+      ],
+      [
+        "e",
+        "ct"
+      ],
+      [
+        "▁p",
+        "at"
+      ],
+      [
+        "▁sidewal",
+        "k"
+      ],
+      [
+        "-",
+        "shirt"
+      ],
+      [
+        "ck",
+        "."
+      ],
+      [
+        "▁sur",
+        "f"
+      ],
+      [
+        "▁ma",
+        "le"
+      ],
+      [
+        "▁pre",
+        "p"
+      ],
+      [
+        "▁bo",
+        "t"
+      ],
+      [
+        "▁loo",
+        "k"
+      ],
+      [
+        "▁fi",
+        "re"
+      ],
+      [
+        "▁wind",
+        "ow"
+      ],
+      [
+        "er",
+        "s."
+      ],
+      [
+        "▁sw",
+        "eat"
+      ],
+      [
+        "ic",
+        "an"
+      ],
+      [
+        "▁m",
+        "ic"
+      ],
+      [
+        "▁s",
+        "a"
+      ],
+      [
+        "▁t",
+        "en"
+      ],
+      [
+        "▁",
+        "H"
+      ],
+      [
+        "▁d",
+        "is"
+      ],
+      [
+        "▁",
+        "I"
+      ],
+      [
+        "▁swimm",
+        "ing"
+      ],
+      [
+        "▁o",
+        "p"
+      ],
+      [
+        "f",
+        "t"
+      ],
+      [
+        "st",
+        "r"
+      ],
+      [
+        "▁gam",
+        "e"
+      ],
+      [
+        "▁the",
+        "y"
+      ],
+      [
+        "▁c",
+        "an"
+      ],
+      [
+        "▁ma",
+        "king"
+      ],
+      [
+        "▁",
+        "Y"
+      ],
+      [
+        "▁us",
+        "ing"
+      ],
+      [
+        "d",
+        "d"
+      ],
+      [
+        "▁st",
+        "rip"
+      ],
+      [
+        "▁sm",
+        "iling"
+      ],
+      [
+        "▁hel",
+        "m"
+      ],
+      [
+        "▁slee",
+        "ping"
+      ],
+      [
+        "▁mic",
+        "ro"
+      ],
+      [
+        "▁c",
+        "le"
+      ],
+      [
+        "e",
+        "re"
+      ],
+      [
+        "▁b",
+        "at"
+      ],
+      [
+        "▁w",
+        "he"
+      ],
+      [
+        "▁con",
+        "struction"
+      ],
+      [
+        "▁n",
+        "ot"
+      ],
+      [
+        "▁go",
+        "ing"
+      ],
+      [
+        "▁",
+        "N"
+      ],
+      [
+        "c",
+        "l"
+      ],
+      [
+        "il",
+        "y"
+      ],
+      [
+        "▁gra",
+        "ss."
+      ],
+      [
+        "▁read",
+        "ing"
+      ],
+      [
+        "▁g",
+        "lasses"
+      ],
+      [
+        "p",
+        "le"
+      ],
+      [
+        "ar",
+        "ing"
+      ],
+      [
+        "▁a",
+        "pp"
+      ],
+      [
+        "▁to",
+        "ward"
+      ],
+      [
+        "n",
+        "is"
+      ],
+      [
+        "ce",
+        "an"
+      ],
+      [
+        "o",
+        "us"
+      ],
+      [
+        "an",
+        "ce"
+      ],
+      [
+        "▁Se",
+        "veral"
+      ],
+      [
+        "▁c",
+        "a"
+      ],
+      [
+        "▁play",
+        "ers"
+      ],
+      [
+        "▁a",
+        "f"
+      ],
+      [
+        "or",
+        "."
+      ],
+      [
+        "▁o",
+        "cean"
+      ],
+      [
+        "c",
+        "ing"
+      ],
+      [
+        "▁t",
+        "-shirt"
+      ],
+      [
+        "▁c",
+        "ross"
+      ],
+      [
+        "ver",
+        "y"
+      ],
+      [
+        "▁motor",
+        "c"
+      ],
+      [
+        "▁camer",
+        "a"
+      ],
+      [
+        "i",
+        "red"
+      ],
+      [
+        "▁ten",
+        "nis"
+      ],
+      [
+        "a",
+        "ur"
+      ],
+      [
+        "i",
+        "le"
+      ],
+      [
+        "y",
+        "s"
+      ],
+      [
+        "ch",
+        "ing"
+      ],
+      [
+        "▁c",
+        "ap"
+      ],
+      [
+        "▁sidewal",
+        "k."
+      ],
+      [
+        "▁a",
+        "g"
+      ],
+      [
+        "▁ac",
+        "ross"
+      ],
+      [
+        "▁mid",
+        "dle"
+      ],
+      [
+        "▁outdoor",
+        "s."
+      ],
+      [
+        "▁him",
+        "."
+      ],
+      [
+        "▁basket",
+        "ball"
+      ],
+      [
+        "▁ne",
+        "w"
+      ],
+      [
+        "▁comp",
+        "et"
+      ],
+      [
+        "▁f",
+        "la"
+      ],
+      [
+        "▁s",
+        "l"
+      ],
+      [
+        "or",
+        "t"
+      ],
+      [
+        "▁jum",
+        "p"
+      ],
+      [
+        "▁work",
+        "ers"
+      ],
+      [
+        "▁sun",
+        "g"
+      ],
+      [
+        "▁n",
+        "o"
+      ],
+      [
+        "▁hand",
+        "s"
+      ],
+      [
+        "▁r",
+        "i"
+      ],
+      [
+        "▁rid",
+        "es"
+      ],
+      [
+        "▁o",
+        "b"
+      ],
+      [
+        "▁run",
+        "s"
+      ],
+      [
+        "▁mo",
+        "ut"
+      ],
+      [
+        "▁rest",
+        "aur"
+      ],
+      [
+        "▁st",
+        "e"
+      ],
+      [
+        "▁d",
+        "es"
+      ],
+      [
+        "▁f",
+        "am"
+      ],
+      [
+        "▁hors",
+        "e"
+      ],
+      [
+        "h",
+        "ing."
+      ],
+      [
+        "▁on",
+        "."
+      ],
+      [
+        "▁it",
+        "s"
+      ],
+      [
+        "▁ben",
+        "ch"
+      ],
+      [
+        "▁helm",
+        "et"
+      ],
+      [
+        "▁snow",
+        "."
+      ],
+      [
+        "▁ad",
+        "ul"
+      ],
+      [
+        "m",
+        "an"
+      ],
+      [
+        "▁",
+        "L"
+      ],
+      [
+        "ag",
+        "e."
+      ],
+      [
+        "▁gam",
+        "e."
+      ],
+      [
+        "▁col",
+        "or"
+      ],
+      [
+        "▁f",
+        "e"
+      ],
+      [
+        "str",
+        "um"
+      ],
+      [
+        "▁camer",
+        "a."
+      ],
+      [
+        "▁in",
+        "strum"
+      ],
+      [
+        "ul",
+        "l"
+      ],
+      [
+        "▁f",
+        "low"
+      ],
+      [
+        "▁pur",
+        "ple"
+      ],
+      [
+        "a",
+        "v"
+      ],
+      [
+        "▁",
+        "D"
+      ],
+      [
+        "▁th",
+        "row"
+      ],
+      [
+        "▁fo",
+        "re"
+      ],
+      [
+        "▁strip",
+        "ed"
+      ],
+      [
+        "▁O",
+        "ne"
+      ],
+      [
+        "in",
+        "e."
+      ],
+      [
+        "▁micro",
+        "ph"
+      ],
+      [
+        "al",
+        "."
+      ],
+      [
+        "▁af",
+        "ter"
+      ],
+      [
+        "▁e",
+        "at"
+      ],
+      [
+        "▁fa",
+        "ce"
+      ],
+      [
+        "▁op",
+        "en"
+      ],
+      [
+        "▁ho",
+        "us"
+      ],
+      [
+        "▁it",
+        "."
+      ],
+      [
+        "at",
+        "ed"
+      ],
+      [
+        "▁st",
+        "ick"
+      ],
+      [
+        "f",
+        "e"
+      ],
+      [
+        "▁ha",
+        "ve"
+      ],
+      [
+        "p",
+        "e"
+      ],
+      [
+        "▁m",
+        "ark"
+      ],
+      [
+        "▁M",
+        "en"
+      ],
+      [
+        "▁danc",
+        "ing"
+      ],
+      [
+        "re",
+        "l"
+      ],
+      [
+        "▁motorc",
+        "ycle"
+      ],
+      [
+        "an",
+        "ing"
+      ],
+      [
+        "▁k",
+        "it"
+      ],
+      [
+        "▁sk",
+        "i"
+      ],
+      [
+        "▁b",
+        "ri"
+      ],
+      [
+        "▁climb",
+        "ing"
+      ],
+      [
+        "▁t",
+        "ru"
+      ],
+      [
+        "or",
+        "n"
+      ],
+      [
+        "▁sw",
+        "ing"
+      ],
+      [
+        "▁li",
+        "ght"
+      ],
+      [
+        "▁wall",
+        "."
+      ],
+      [
+        "▁d",
+        "uring"
+      ],
+      [
+        "▁s",
+        "et"
+      ],
+      [
+        "▁f",
+        "en"
+      ],
+      [
+        "▁b",
+        "re"
+      ],
+      [
+        "▁together",
+        "."
+      ],
+      [
+        "▁p",
+        "ra"
+      ],
+      [
+        "en",
+        "ts"
+      ],
+      [
+        "▁pool",
+        "."
+      ],
+      [
+        "▁p",
+        "as"
+      ],
+      [
+        "it",
+        "ion"
+      ],
+      [
+        "▁Y",
+        "oung"
+      ],
+      [
+        "▁sung",
+        "lasses"
+      ],
+      [
+        "▁an",
+        "im"
+      ],
+      [
+        "▁t",
+        "rick"
+      ],
+      [
+        "t",
+        "ed"
+      ],
+      [
+        "▁bo",
+        "w"
+      ],
+      [
+        "▁p",
+        "l"
+      ],
+      [
+        "▁h",
+        "ome"
+      ],
+      [
+        "lder",
+        "ly"
+      ],
+      [
+        "▁read",
+        "y"
+      ],
+      [
+        "▁hi",
+        "gh"
+      ],
+      [
+        "▁ag",
+        "ain"
+      ],
+      [
+        "▁ar",
+        "t"
+      ],
+      [
+        "▁po",
+        "l"
+      ],
+      [
+        "▁m",
+        "e"
+      ],
+      [
+        "▁m",
+        "at"
+      ],
+      [
+        "▁t",
+        "ree"
+      ],
+      [
+        "▁d",
+        "i"
+      ],
+      [
+        "▁again",
+        "st"
+      ],
+      [
+        "u",
+        "gh"
+      ],
+      [
+        "▁j",
+        "o"
+      ],
+      [
+        "ut",
+        "ting"
+      ],
+      [
+        "▁C",
+        "hild"
+      ],
+      [
+        "le",
+        "ss"
+      ],
+      [
+        "▁drin",
+        "king"
+      ],
+      [
+        "lo",
+        "red"
+      ],
+      [
+        "st",
+        "um"
+      ],
+      [
+        "▁e",
+        "v"
+      ],
+      [
+        "ir",
+        "d"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "▁p",
+        "ast"
+      ],
+      [
+        "▁la",
+        "ying"
+      ],
+      [
+        "▁bri",
+        "ght"
+      ],
+      [
+        "▁co",
+        "stum"
+      ],
+      [
+        "▁",
+        "very"
+      ],
+      [
+        "▁e",
+        "lderly"
+      ],
+      [
+        "on",
+        "."
+      ],
+      [
+        "▁d",
+        "ay."
+      ],
+      [
+        "g",
+        "s"
+      ],
+      [
+        "i",
+        "al"
+      ],
+      [
+        "▁co",
+        "w"
+      ],
+      [
+        "▁enjo",
+        "ying"
+      ],
+      [
+        "▁to",
+        "y"
+      ],
+      [
+        "a",
+        "ired"
+      ],
+      [
+        "b",
+        "r"
+      ],
+      [
+        "che",
+        "n"
+      ],
+      [
+        "▁them",
+        "."
+      ],
+      [
+        "▁wood",
+        "en"
+      ],
+      [
+        "in",
+        "n"
+      ],
+      [
+        "p",
+        "la"
+      ],
+      [
+        "▁road",
+        "."
+      ],
+      [
+        "l",
+        "ler"
+      ],
+      [
+        "▁bi",
+        "g"
+      ],
+      [
+        "c",
+        "o"
+      ],
+      [
+        "-h",
+        "aired"
+      ],
+      [
+        "▁car",
+        "."
+      ],
+      [
+        "▁po",
+        "sing"
+      ],
+      [
+        "▁co",
+        "u"
+      ],
+      [
+        "▁kit",
+        "chen"
+      ],
+      [
+        "▁h",
+        "ill"
+      ],
+      [
+        "▁table",
+        "."
+      ],
+      [
+        "f",
+        "it"
+      ],
+      [
+        "v",
+        "el"
+      ],
+      [
+        "▁fam",
+        "ily"
+      ],
+      [
+        "▁bo",
+        "ard"
+      ],
+      [
+        "▁sp",
+        "e"
+      ],
+      [
+        "g",
+        "ra"
+      ],
+      [
+        "▁h",
+        "ang"
+      ],
+      [
+        "▁Wom",
+        "an"
+      ],
+      [
+        "▁b",
+        "ear"
+      ],
+      [
+        "ap",
+        "p"
+      ],
+      [
+        "▁ra",
+        "in"
+      ],
+      [
+        "rel",
+        "la"
+      ],
+      [
+        "▁bus",
+        "y"
+      ],
+      [
+        "▁",
+        "umb"
+      ],
+      [
+        "▁umb",
+        "rella"
+      ],
+      [
+        "s",
+        "es"
+      ],
+      [
+        "ad",
+        "e"
+      ],
+      [
+        "▁pra",
+        "ct"
+      ],
+      [
+        "▁st",
+        "age"
+      ],
+      [
+        "al",
+        "s"
+      ],
+      [
+        "ation",
+        "."
+      ],
+      [
+        "▁ra",
+        "ce"
+      ],
+      [
+        "ve",
+        "red"
+      ],
+      [
+        "▁people",
+        "."
+      ],
+      [
+        "▁out",
+        "fit"
+      ],
+      [
+        "o",
+        "d"
+      ],
+      [
+        "i",
+        "z"
+      ],
+      [
+        "w",
+        "ay."
+      ],
+      [
+        "y",
+        "cl"
+      ],
+      [
+        "▁c",
+        "re"
+      ],
+      [
+        "▁ri",
+        "ver"
+      ],
+      [
+        "ro",
+        "om"
+      ],
+      [
+        "▁sur",
+        "round"
+      ],
+      [
+        "ro",
+        "n"
+      ],
+      [
+        "▁p",
+        "ie"
+      ],
+      [
+        "▁pain",
+        "ting"
+      ],
+      [
+        "▁k",
+        "ick"
+      ],
+      [
+        "▁h",
+        "u"
+      ],
+      [
+        "▁n",
+        "ight"
+      ],
+      [
+        "an",
+        "t."
+      ],
+      [
+        "j",
+        "ect"
+      ],
+      [
+        "▁bik",
+        "e."
+      ],
+      [
+        "▁Child",
+        "ren"
+      ],
+      [
+        "▁shirt",
+        ","
+      ],
+      [
+        "▁work",
+        "er"
+      ],
+      [
+        "▁Some",
+        "one"
+      ],
+      [
+        "le",
+        "y"
+      ],
+      [
+        "ri",
+        "es"
+      ],
+      [
+        "▁ch",
+        "as"
+      ],
+      [
+        "▁color",
+        "ful"
+      ],
+      [
+        "r",
+        "is"
+      ],
+      [
+        "▁",
+        "ice"
+      ],
+      [
+        "▁p",
+        "ap"
+      ],
+      [
+        "▁c",
+        "ell"
+      ],
+      [
+        "▁toward",
+        "s"
+      ],
+      [
+        "▁t",
+        "r"
+      ],
+      [
+        "▁crowd",
+        "."
+      ],
+      [
+        "t",
+        "y"
+      ],
+      [
+        "v",
+        "ers"
+      ],
+      [
+        "▁guy",
+        "s"
+      ],
+      [
+        "y",
+        "m"
+      ],
+      [
+        "▁",
+        "\""
+      ],
+      [
+        "n",
+        "y"
+      ],
+      [
+        "▁shirt",
+        "."
+      ],
+      [
+        "▁other",
+        "."
+      ],
+      [
+        "▁b",
+        "es"
+      ],
+      [
+        "ch",
+        "ool"
+      ],
+      [
+        "▁store",
+        "."
+      ],
+      [
+        "▁p",
+        "us"
+      ],
+      [
+        "▁sing",
+        "ing"
+      ],
+      [
+        "▁clot",
+        "hing"
+      ],
+      [
+        "▁ta",
+        "kes"
+      ],
+      [
+        "▁con",
+        "t"
+      ],
+      [
+        "m",
+        "ent"
+      ],
+      [
+        "▁photo",
+        "gra"
+      ],
+      [
+        "▁st",
+        "ud"
+      ],
+      [
+        "▁shop",
+        "ping"
+      ],
+      [
+        "▁r",
+        "ide"
+      ],
+      [
+        "▁g",
+        "i"
+      ],
+      [
+        "▁b",
+        "rick"
+      ],
+      [
+        "▁st",
+        "air"
+      ],
+      [
+        "s",
+        "el"
+      ],
+      [
+        "▁dr",
+        "um"
+      ],
+      [
+        "k",
+        "e."
+      ],
+      [
+        "▁la",
+        "ugh"
+      ],
+      [
+        "p",
+        "."
+      ],
+      [
+        "▁the",
+        "re"
+      ],
+      [
+        "s",
+        "c"
+      ],
+      [
+        "dd",
+        "ler"
+      ],
+      [
+        "ur",
+        "n"
+      ],
+      [
+        "▁w",
+        "in"
+      ],
+      [
+        "che",
+        "d"
+      ],
+      [
+        "▁d",
+        "ay"
+      ],
+      [
+        "▁dog",
+        "."
+      ],
+      [
+        "un",
+        "ch"
+      ],
+      [
+        "▁ocean",
+        "."
+      ],
+      [
+        "▁m",
+        "ach"
+      ],
+      [
+        "▁bes",
+        "ide"
+      ],
+      [
+        "▁co",
+        "vered"
+      ],
+      [
+        "el",
+        "ling"
+      ],
+      [
+        "▁The",
+        "y"
+      ],
+      [
+        "p",
+        "ing."
+      ],
+      [
+        "x",
+        "ing"
+      ],
+      [
+        "▁j",
+        "ust"
+      ],
+      [
+        "▁ben",
+        "ch."
+      ],
+      [
+        "p",
+        "ack"
+      ],
+      [
+        "▁s",
+        "chool"
+      ],
+      [
+        "▁h",
+        "um"
+      ],
+      [
+        "▁dri",
+        "ving"
+      ],
+      [
+        "▁tre",
+        "e."
+      ],
+      [
+        "▁m",
+        "et"
+      ],
+      [
+        "▁air",
+        "."
+      ],
+      [
+        "o",
+        "ot"
+      ],
+      [
+        "▁se",
+        "veral"
+      ],
+      [
+        "▁to",
+        "ddler"
+      ],
+      [
+        "▁ground",
+        "."
+      ],
+      [
+        "▁shor",
+        "t"
+      ],
+      [
+        "▁",
+        "E"
+      ],
+      [
+        "▁run",
+        "n"
+      ],
+      [
+        "w",
+        "ing"
+      ],
+      [
+        "▁pract",
+        "ic"
+      ],
+      [
+        "e",
+        "en"
+      ],
+      [
+        "▁h",
+        "ard"
+      ],
+      [
+        "ck",
+        "ey"
+      ],
+      [
+        "▁k",
+        "n"
+      ],
+      [
+        "▁snow",
+        "board"
+      ],
+      [
+        "▁e",
+        "le"
+      ],
+      [
+        "in",
+        "es"
+      ],
+      [
+        "▁fo",
+        "ur"
+      ],
+      [
+        "▁a",
+        "m"
+      ],
+      [
+        "▁friend",
+        "s"
+      ],
+      [
+        "▁su",
+        "b"
+      ],
+      [
+        "▁p",
+        "a"
+      ],
+      [
+        "▁clot",
+        "hes"
+      ],
+      [
+        "▁back",
+        "pack"
+      ],
+      [
+        "▁cell",
+        "ph"
+      ],
+      [
+        "▁br",
+        "id"
+      ],
+      [
+        "▁picture",
+        "."
+      ],
+      [
+        "▁co",
+        "ur"
+      ],
+      [
+        "▁do",
+        "es"
+      ],
+      [
+        "▁Th",
+        "is"
+      ],
+      [
+        "s",
+        "p"
+      ],
+      [
+        "▁h",
+        "app"
+      ],
+      [
+        "▁e",
+        "mp"
+      ],
+      [
+        "▁bo",
+        "ok"
+      ],
+      [
+        "▁shirt",
+        "s"
+      ],
+      [
+        "▁man",
+        "y"
+      ],
+      [
+        "▁te",
+        "en"
+      ],
+      [
+        "i",
+        "en"
+      ],
+      [
+        "▁",
+        "R"
+      ],
+      [
+        "a",
+        "ble"
+      ],
+      [
+        "▁m",
+        "other"
+      ],
+      [
+        "▁are",
+        "a."
+      ],
+      [
+        "▁co",
+        "oking"
+      ],
+      [
+        "▁ma",
+        "ke"
+      ],
+      [
+        "▁pie",
+        "ce"
+      ],
+      [
+        "▁li",
+        "ke"
+      ],
+      [
+        "▁h",
+        "ot"
+      ],
+      [
+        "▁a",
+        "way"
+      ],
+      [
+        "▁wat",
+        "ches"
+      ],
+      [
+        "ck",
+        "s"
+      ],
+      [
+        "d",
+        "ing"
+      ],
+      [
+        "▁",
+        "K"
+      ],
+      [
+        "▁guitar",
+        "."
+      ],
+      [
+        "▁sweat",
+        "er"
+      ],
+      [
+        "▁somet",
+        "hing."
+      ],
+      [
+        "▁h",
+        "it"
+      ],
+      [
+        "▁d",
+        "ra"
+      ],
+      [
+        "▁e",
+        "y"
+      ],
+      [
+        "▁st",
+        "age."
+      ],
+      [
+        "▁prep",
+        "aring"
+      ],
+      [
+        "u",
+        "ght"
+      ],
+      [
+        "▁g",
+        "ym"
+      ],
+      [
+        "▁bo",
+        "ot"
+      ],
+      [
+        "▁le",
+        "a"
+      ],
+      [
+        "▁t",
+        "all"
+      ],
+      [
+        "▁l",
+        "ine"
+      ],
+      [
+        "c",
+        "or"
+      ],
+      [
+        "u",
+        "it"
+      ],
+      [
+        "▁bear",
+        "d"
+      ],
+      [
+        "b",
+        "e"
+      ],
+      [
+        "▁f",
+        "un"
+      ],
+      [
+        "▁g",
+        "at"
+      ],
+      [
+        "ear",
+        "s"
+      ],
+      [
+        "▁fla",
+        "g"
+      ],
+      [
+        "▁room",
+        "."
+      ],
+      [
+        "is",
+        "ts"
+      ],
+      [
+        "▁bo",
+        "dy"
+      ],
+      [
+        "▁b",
+        "ird"
+      ],
+      [
+        "▁surround",
+        "ed"
+      ],
+      [
+        "▁v",
+        "est"
+      ],
+      [
+        "▁other",
+        "s"
+      ],
+      [
+        "▁ra",
+        "ce."
+      ],
+      [
+        "▁c",
+        "ra"
+      ],
+      [
+        "▁po",
+        "in"
+      ],
+      [
+        "a",
+        "king"
+      ],
+      [
+        "ar",
+        "t"
+      ],
+      [
+        "▁in",
+        "do"
+      ],
+      [
+        "▁co",
+        "lored"
+      ],
+      [
+        "▁f",
+        "ull"
+      ],
+      [
+        "▁cat",
+        "ch"
+      ],
+      [
+        "he",
+        "red"
+      ],
+      [
+        "▁flo",
+        "or"
+      ],
+      [
+        "▁comp",
+        "ut"
+      ],
+      [
+        "▁restaur",
+        "ant."
+      ],
+      [
+        "▁po",
+        "le"
+      ],
+      [
+        "▁sk",
+        "irt"
+      ],
+      [
+        "o",
+        "ut"
+      ],
+      [
+        "▁off",
+        "ic"
+      ],
+      [
+        "▁tan",
+        "k"
+      ],
+      [
+        "or",
+        "k"
+      ],
+      [
+        "mer",
+        "ican"
+      ],
+      [
+        "i",
+        "um"
+      ],
+      [
+        "p",
+        "t"
+      ],
+      [
+        "▁s",
+        "elling"
+      ],
+      [
+        "▁p",
+        "ul"
+      ],
+      [
+        "▁con",
+        "cer"
+      ],
+      [
+        "▁outdo",
+        "ors"
+      ],
+      [
+        "▁food",
+        "."
+      ],
+      [
+        "▁cit",
+        "y."
+      ],
+      [
+        "▁g",
+        "ather"
+      ],
+      [
+        "▁f",
+        "il"
+      ],
+      [
+        "he",
+        "d"
+      ],
+      [
+        "hi",
+        "cle"
+      ],
+      [
+        "▁whe",
+        "el"
+      ],
+      [
+        "o",
+        "."
+      ],
+      [
+        "▁ve",
+        "hicle"
+      ],
+      [
+        "▁bo",
+        "x"
+      ],
+      [
+        "▁hang",
+        "ing"
+      ],
+      [
+        "▁",
+        "2"
+      ],
+      [
+        "▁c",
+        "as"
+      ],
+      [
+        "up",
+        "p"
+      ],
+      [
+        "▁la",
+        "ke."
+      ],
+      [
+        "ie",
+        "w"
+      ],
+      [
+        "▁cow",
+        "bo"
+      ],
+      [
+        "▁grass",
+        "y"
+      ],
+      [
+        "-",
+        "s"
+      ],
+      [
+        "ar",
+        "m"
+      ],
+      [
+        "▁st",
+        "op"
+      ],
+      [
+        "▁her",
+        "."
+      ],
+      [
+        "f",
+        "."
+      ],
+      [
+        "▁bot",
+        "h"
+      ],
+      [
+        "ting",
+        "."
+      ],
+      [
+        "▁la",
+        "d"
+      ],
+      [
+        "▁l",
+        "ist"
+      ],
+      [
+        "▁ta",
+        "ke"
+      ],
+      [
+        "▁some",
+        "one"
+      ],
+      [
+        "▁c",
+        "orn"
+      ],
+      [
+        "▁a",
+        "ud"
+      ],
+      [
+        "▁m",
+        "as"
+      ],
+      [
+        "▁C",
+        "h"
+      ],
+      [
+        "is",
+        "h"
+      ],
+      [
+        "▁on",
+        "to"
+      ],
+      [
+        "▁arm",
+        "s"
+      ],
+      [
+        "▁car",
+        "t"
+      ],
+      [
+        "▁c",
+        "ur"
+      ],
+      [
+        "▁hand",
+        "."
+      ],
+      [
+        "r",
+        "ican"
+      ],
+      [
+        "▁r",
+        "ight"
+      ],
+      [
+        "▁v",
+        "ol"
+      ],
+      [
+        "▁t",
+        "im"
+      ],
+      [
+        "▁list",
+        "en"
+      ],
+      [
+        "r",
+        "it"
+      ],
+      [
+        "us",
+        "e"
+      ],
+      [
+        "▁gat",
+        "hered"
+      ],
+      [
+        "▁g",
+        "lass"
+      ],
+      [
+        "▁tru",
+        "ck"
+      ],
+      [
+        "▁c",
+        "lass"
+      ],
+      [
+        "▁adul",
+        "ts"
+      ],
+      [
+        "ul",
+        "t"
+      ],
+      [
+        "▁hat",
+        "s"
+      ],
+      [
+        "▁ra",
+        "il"
+      ],
+      [
+        "▁mout",
+        "h."
+      ],
+      [
+        "▁g",
+        "ri"
+      ],
+      [
+        "▁w",
+        "ere"
+      ],
+      [
+        "▁N",
+        "o"
+      ],
+      [
+        "▁sp",
+        "or"
+      ],
+      [
+        "b",
+        "y."
+      ],
+      [
+        "▁sho",
+        "u"
+      ],
+      [
+        "le",
+        "t"
+      ],
+      [
+        "▁are",
+        "a"
+      ],
+      [
+        "▁ra",
+        "cing"
+      ],
+      [
+        "▁F",
+        "ive"
+      ],
+      [
+        "▁wh",
+        "at"
+      ],
+      [
+        "▁as",
+        "lee"
+      ],
+      [
+        "▁",
+        "ent"
+      ],
+      [
+        "▁b",
+        "ut"
+      ],
+      [
+        "▁bal",
+        "lo"
+      ],
+      [
+        "▁anim",
+        "al"
+      ],
+      [
+        "gg",
+        "ing"
+      ],
+      [
+        "i",
+        "ous"
+      ],
+      [
+        "g",
+        "e."
+      ],
+      [
+        "▁ro",
+        "ller"
+      ],
+      [
+        "▁fis",
+        "hing"
+      ],
+      [
+        "▁b",
+        "et"
+      ],
+      [
+        "ic",
+        "al"
+      ],
+      [
+        "▁hous",
+        "e."
+      ],
+      [
+        "▁p",
+        "ick"
+      ],
+      [
+        "all",
+        "y"
+      ],
+      [
+        "▁A",
+        "f"
+      ],
+      [
+        "▁man",
+        "."
+      ],
+      [
+        "▁a",
+        "p"
+      ],
+      [
+        "▁prep",
+        "are"
+      ],
+      [
+        "▁att",
+        "em"
+      ],
+      [
+        "b",
+        "ble"
+      ],
+      [
+        "▁sun",
+        "ny"
+      ],
+      [
+        "bo",
+        "dy"
+      ],
+      [
+        "▁music",
+        "ian"
+      ],
+      [
+        "▁w",
+        "e"
+      ],
+      [
+        "▁st",
+        "one"
+      ],
+      [
+        "▁whi",
+        "ch"
+      ],
+      [
+        "▁dis",
+        "pla"
+      ],
+      [
+        "u",
+        "g"
+      ],
+      [
+        "▁bo",
+        "o"
+      ],
+      [
+        "▁cowbo",
+        "y"
+      ],
+      [
+        "▁pas",
+        "s"
+      ],
+      [
+        "▁bu",
+        "ck"
+      ],
+      [
+        "▁met",
+        "al"
+      ],
+      [
+        "at",
+        "es"
+      ],
+      [
+        "▁f",
+        "ountain"
+      ],
+      [
+        "▁",
+        "J"
+      ],
+      [
+        "▁snow",
+        "y"
+      ],
+      [
+        "v",
+        "e."
+      ],
+      [
+        "ru",
+        "it"
+      ],
+      [
+        "l",
+        "ic"
+      ],
+      [
+        "▁ro",
+        "o"
+      ],
+      [
+        "i",
+        "f"
+      ],
+      [
+        "▁p",
+        "e"
+      ],
+      [
+        "▁d",
+        "ance"
+      ],
+      [
+        "▁re",
+        "la"
+      ],
+      [
+        "c",
+        "es"
+      ],
+      [
+        "▁th",
+        "is"
+      ],
+      [
+        "▁mout",
+        "h"
+      ],
+      [
+        "▁slee",
+        "ping."
+      ],
+      [
+        "ycl",
+        "ist"
+      ],
+      [
+        "▁boat",
+        "."
+      ],
+      [
+        "▁fore",
+        "st"
+      ],
+      [
+        "▁ho",
+        "ckey"
+      ],
+      [
+        "▁con",
+        "c"
+      ],
+      [
+        "▁che",
+        "ck"
+      ],
+      [
+        "▁Wom",
+        "en"
+      ],
+      [
+        "▁tre",
+        "es"
+      ],
+      [
+        "▁f",
+        "ruit"
+      ],
+      [
+        "▁",
+        "qu"
+      ],
+      [
+        "i",
+        "les"
+      ],
+      [
+        "▁pre",
+        "s"
+      ],
+      [
+        "▁con",
+        "vers"
+      ],
+      [
+        "▁d",
+        "inn"
+      ],
+      [
+        "▁le",
+        "aning"
+      ],
+      [
+        "en",
+        "."
+      ],
+      [
+        "c",
+        "a"
+      ],
+      [
+        "▁f",
+        "all"
+      ],
+      [
+        "▁e",
+        "qu"
+      ],
+      [
+        "or",
+        "s."
+      ],
+      [
+        "▁p",
+        "utting"
+      ],
+      [
+        "ley",
+        "ball"
+      ],
+      [
+        "anc",
+        "e."
+      ],
+      [
+        "▁n",
+        "umb"
+      ],
+      [
+        "▁ob",
+        "ject"
+      ],
+      [
+        "▁abo",
+        "ve"
+      ],
+      [
+        "▁microph",
+        "one"
+      ],
+      [
+        "▁Man",
+        "y"
+      ],
+      [
+        "▁s",
+        "qu"
+      ],
+      [
+        "▁as",
+        "ian"
+      ],
+      [
+        "▁practic",
+        "ing"
+      ],
+      [
+        "▁v",
+        "iew"
+      ],
+      [
+        "▁throw",
+        "ing"
+      ],
+      [
+        "▁p",
+        "ub"
+      ],
+      [
+        "ion",
+        "."
+      ],
+      [
+        "▁lad",
+        "ies"
+      ],
+      [
+        "o",
+        "s"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "▁compet",
+        "ition"
+      ],
+      [
+        "▁vol",
+        "leyball"
+      ],
+      [
+        "▁crowd",
+        "ed"
+      ],
+      [
+        "▁sho",
+        "es"
+      ],
+      [
+        "▁c",
+        "e"
+      ],
+      [
+        "um",
+        "p"
+      ],
+      [
+        "an",
+        "e"
+      ],
+      [
+        "em",
+        "ent"
+      ],
+      [
+        "▁b",
+        "an"
+      ],
+      [
+        "▁down",
+        "."
+      ],
+      [
+        "che",
+        "s."
+      ],
+      [
+        "▁sc",
+        "ar"
+      ],
+      [
+        "▁o",
+        "pp"
+      ],
+      [
+        "s",
+        "e."
+      ],
+      [
+        "▁g",
+        "ear"
+      ],
+      [
+        "c",
+        "as"
+      ],
+      [
+        "▁bot",
+        "tle"
+      ],
+      [
+        "am",
+        "e"
+      ],
+      [
+        "▁B",
+        "o"
+      ],
+      [
+        "▁se",
+        "ated"
+      ],
+      [
+        "et",
+        "s"
+      ],
+      [
+        "▁bre",
+        "ak"
+      ],
+      [
+        "▁h",
+        "om"
+      ],
+      [
+        "w",
+        "een"
+      ],
+      [
+        "▁instrum",
+        "ent"
+      ],
+      [
+        "▁aud",
+        "ien"
+      ],
+      [
+        "▁head",
+        "."
+      ],
+      [
+        "▁b",
+        "ed"
+      ],
+      [
+        "▁bet",
+        "ween"
+      ],
+      [
+        "▁d",
+        "ist"
+      ],
+      [
+        "b",
+        "er"
+      ],
+      [
+        "i",
+        "x"
+      ],
+      [
+        "▁s",
+        "er"
+      ],
+      [
+        "▁st",
+        "at"
+      ],
+      [
+        "▁pol",
+        "ice"
+      ],
+      [
+        "▁st",
+        "ro"
+      ],
+      [
+        "id",
+        "s"
+      ],
+      [
+        "▁dr",
+        "ink"
+      ],
+      [
+        "▁re",
+        "s"
+      ],
+      [
+        "re",
+        "st"
+      ],
+      [
+        "a",
+        "ut"
+      ],
+      [
+        "▁hum",
+        "an"
+      ],
+      [
+        "▁Af",
+        "rican"
+      ],
+      [
+        "m",
+        "ent."
+      ],
+      [
+        "nd",
+        "ing"
+      ],
+      [
+        "▁cle",
+        "aning"
+      ],
+      [
+        "▁adul",
+        "t"
+      ],
+      [
+        "▁c",
+        "la"
+      ],
+      [
+        "▁go",
+        "ld"
+      ],
+      [
+        "▁po",
+        "se"
+      ],
+      [
+        "▁g",
+        "ar"
+      ],
+      [
+        "▁wor",
+        "k."
+      ],
+      [
+        "it",
+        "i"
+      ],
+      [
+        "ct",
+        "or"
+      ],
+      [
+        "▁mark",
+        "et"
+      ],
+      [
+        "it",
+        "y"
+      ],
+      [
+        "▁j",
+        "ers"
+      ],
+      [
+        "▁equ",
+        "ip"
+      ],
+      [
+        "ent",
+        "le"
+      ],
+      [
+        "▁g",
+        "r"
+      ],
+      [
+        "▁p",
+        "i"
+      ],
+      [
+        "▁fa",
+        "ce."
+      ],
+      [
+        "▁pat",
+        "h"
+      ],
+      [
+        "▁pub",
+        "lic"
+      ],
+      [
+        "▁c",
+        "ig"
+      ],
+      [
+        "▁o",
+        "wn"
+      ],
+      [
+        "▁restaur",
+        "ant"
+      ],
+      [
+        "▁k",
+        "is"
+      ],
+      [
+        "er",
+        "t"
+      ],
+      [
+        "ard",
+        "."
+      ],
+      [
+        "▁b",
+        "low"
+      ],
+      [
+        "▁le",
+        "ft"
+      ],
+      [
+        "▁wor",
+        "ks"
+      ],
+      [
+        "▁mountain",
+        "."
+      ],
+      [
+        "▁flo",
+        "or."
+      ],
+      [
+        "▁c",
+        "ount"
+      ],
+      [
+        "▁attem",
+        "p"
+      ],
+      [
+        "▁c",
+        "up"
+      ],
+      [
+        "▁lo",
+        "t"
+      ],
+      [
+        "▁perform",
+        "s"
+      ],
+      [
+        "o",
+        "u"
+      ],
+      [
+        "▁shirt",
+        "less"
+      ],
+      [
+        "▁w",
+        "ed"
+      ],
+      [
+        "u",
+        "e."
+      ],
+      [
+        "▁sm",
+        "oking"
+      ],
+      [
+        "▁microph",
+        "one."
+      ],
+      [
+        "▁w",
+        "rit"
+      ],
+      [
+        "▁gi",
+        "ving"
+      ],
+      [
+        "▁ballo",
+        "on"
+      ],
+      [
+        "▁G",
+        "irl"
+      ],
+      [
+        "il",
+        "ing."
+      ],
+      [
+        "▁tra",
+        "ck"
+      ],
+      [
+        "▁chas",
+        "ing"
+      ],
+      [
+        "▁sc",
+        "en"
+      ],
+      [
+        "▁hand",
+        "s."
+      ],
+      [
+        "▁in",
+        "d"
+      ],
+      [
+        "f",
+        "ore"
+      ],
+      [
+        "▁ev",
+        "ent."
+      ],
+      [
+        "▁p",
+        "ot"
+      ],
+      [
+        "▁hom",
+        "e."
+      ],
+      [
+        "▁g",
+        "entle"
+      ],
+      [
+        "▁photogra",
+        "p"
+      ],
+      [
+        "▁skateboard",
+        "er"
+      ],
+      [
+        "▁ma",
+        "kes"
+      ],
+      [
+        "a",
+        "z"
+      ],
+      [
+        "▁gra",
+        "ff"
+      ],
+      [
+        "▁cre",
+        "am"
+      ],
+      [
+        "▁pap",
+        "er"
+      ],
+      [
+        "f",
+        "et"
+      ],
+      [
+        "▁g",
+        "lo"
+      ],
+      [
+        "▁do",
+        "or"
+      ],
+      [
+        "▁fi",
+        "gh"
+      ],
+      [
+        "▁app",
+        "ears"
+      ],
+      [
+        "er",
+        "ing"
+      ],
+      [
+        "▁sm",
+        "iles"
+      ],
+      [
+        "▁al",
+        "one"
+      ],
+      [
+        "id",
+        "ing"
+      ],
+      [
+        "▁be",
+        "fore"
+      ],
+      [
+        "▁conc",
+        "re"
+      ],
+      [
+        "▁No",
+        "body"
+      ],
+      [
+        "▁A",
+        "merican"
+      ],
+      [
+        "l",
+        "ling"
+      ],
+      [
+        "▁p",
+        "it"
+      ],
+      [
+        "▁",
+        "ite"
+      ],
+      [
+        "▁be",
+        "aut"
+      ],
+      [
+        "▁ite",
+        "m"
+      ],
+      [
+        "▁emp",
+        "ty"
+      ],
+      [
+        "▁f",
+        "ather"
+      ],
+      [
+        "▁uniform",
+        "s"
+      ],
+      [
+        "▁d",
+        "a"
+      ],
+      [
+        "▁ph",
+        "one"
+      ],
+      [
+        "▁k",
+        "ne"
+      ],
+      [
+        "▁sand",
+        "."
+      ],
+      [
+        "▁mark",
+        "et."
+      ],
+      [
+        "▁play",
+        "ground"
+      ],
+      [
+        "▁train",
+        "."
+      ],
+      [
+        "▁woman",
+        "."
+      ],
+      [
+        "▁pus",
+        "hing"
+      ],
+      [
+        "▁night",
+        "."
+      ],
+      [
+        "▁st",
+        "ra"
+      ],
+      [
+        "i",
+        "ful"
+      ],
+      [
+        "▁fen",
+        "ce."
+      ],
+      [
+        "▁co",
+        "ff"
+      ],
+      [
+        "▁graff",
+        "iti"
+      ],
+      [
+        "▁jers",
+        "ey"
+      ],
+      [
+        "u",
+        "ff"
+      ],
+      [
+        "▁man",
+        ","
+      ],
+      [
+        "▁sweat",
+        "shirt"
+      ],
+      [
+        "ee",
+        "p"
+      ],
+      [
+        "at",
+        "t"
+      ],
+      [
+        "are",
+        "t"
+      ],
+      [
+        "▁ho",
+        "od"
+      ],
+      [
+        "▁walking",
+        "."
+      ],
+      [
+        "ct",
+        "ure"
+      ],
+      [
+        "-h",
+        "air"
+      ],
+      [
+        "▁cig",
+        "aret"
+      ],
+      [
+        "▁sho",
+        "vel"
+      ],
+      [
+        "▁d",
+        "ire"
+      ],
+      [
+        "▁up",
+        "."
+      ],
+      [
+        "▁aslee",
+        "p"
+      ],
+      [
+        "▁whe",
+        "re"
+      ],
+      [
+        "▁bow",
+        "l"
+      ],
+      [
+        "a",
+        "il"
+      ],
+      [
+        "▁s",
+        "il"
+      ],
+      [
+        "▁wear",
+        "s"
+      ],
+      [
+        "▁po",
+        "ses"
+      ],
+      [
+        "u",
+        "gg"
+      ],
+      [
+        "ag",
+        "ed"
+      ],
+      [
+        "▁picture",
+        "s"
+      ],
+      [
+        "▁numb",
+        "er"
+      ],
+      [
+        "▁pla",
+        "st"
+      ],
+      [
+        "▁window",
+        "."
+      ],
+      [
+        "wn",
+        "."
+      ],
+      [
+        "▁rid",
+        "er"
+      ],
+      [
+        "▁hill",
+        "."
+      ],
+      [
+        "▁fe",
+        "w"
+      ],
+      [
+        "▁st",
+        "r"
+      ],
+      [
+        "i",
+        "ff"
+      ],
+      [
+        "▁ve",
+        "nd"
+      ],
+      [
+        "▁hous",
+        "e"
+      ],
+      [
+        "▁sm",
+        "ile"
+      ],
+      [
+        "▁kitchen",
+        "."
+      ],
+      [
+        "▁river",
+        "."
+      ],
+      [
+        "▁bik",
+        "es"
+      ],
+      [
+        "in",
+        "ing"
+      ],
+      [
+        "▁sh",
+        "ore"
+      ],
+      [
+        "att",
+        "oo"
+      ],
+      [
+        "▁show",
+        "ing"
+      ],
+      [
+        "ach",
+        "ing"
+      ],
+      [
+        "▁",
+        "3"
+      ],
+      [
+        "▁tra",
+        "il"
+      ],
+      [
+        "▁fis",
+        "h"
+      ],
+      [
+        "▁v",
+        "ide"
+      ],
+      [
+        "▁costum",
+        "e"
+      ],
+      [
+        "▁plast",
+        "ic"
+      ],
+      [
+        "▁g",
+        "ro"
+      ],
+      [
+        "▁beaut",
+        "iful"
+      ],
+      [
+        "▁bu",
+        "s."
+      ],
+      [
+        "r",
+        "ic"
+      ],
+      [
+        "▁listen",
+        "ing"
+      ],
+      [
+        "he",
+        "s."
+      ],
+      [
+        "▁pla",
+        "t"
+      ],
+      [
+        "▁cou",
+        "ch"
+      ],
+      [
+        "▁sign",
+        "."
+      ],
+      [
+        "▁",
+        "ed"
+      ],
+      [
+        "▁b",
+        "ed."
+      ],
+      [
+        "▁p",
+        "ut"
+      ],
+      [
+        "▁watch",
+        "."
+      ],
+      [
+        "▁pla",
+        "id"
+      ],
+      [
+        "▁l",
+        "ying"
+      ],
+      [
+        "pp",
+        "ed"
+      ],
+      [
+        "d",
+        "u"
+      ],
+      [
+        "▁ra",
+        "mp"
+      ],
+      [
+        "▁la",
+        "dd"
+      ],
+      [
+        "▁di",
+        "ff"
+      ],
+      [
+        "▁s",
+        "on"
+      ],
+      [
+        "▁c",
+        "utting"
+      ],
+      [
+        "in",
+        "i"
+      ],
+      [
+        "▁tre",
+        "es."
+      ],
+      [
+        "▁bicycle",
+        "."
+      ],
+      [
+        "▁t",
+        "attoo"
+      ],
+      [
+        "▁p",
+        "ad"
+      ],
+      [
+        "▁m",
+        "il"
+      ],
+      [
+        "ad",
+        "e."
+      ],
+      [
+        "▁tra",
+        "ck."
+      ],
+      [
+        "▁d",
+        "ig"
+      ],
+      [
+        "sp",
+        "ap"
+      ],
+      [
+        "▁go",
+        "l"
+      ],
+      [
+        "le",
+        "br"
+      ],
+      [
+        "▁new",
+        "spap"
+      ],
+      [
+        "▁c",
+        "ut"
+      ],
+      [
+        "▁ex",
+        "p"
+      ],
+      [
+        "▁hat",
+        "."
+      ],
+      [
+        "▁ce",
+        "lebr"
+      ],
+      [
+        "▁",
+        "im"
+      ],
+      [
+        "▁re",
+        "f"
+      ],
+      [
+        "▁re",
+        "p"
+      ],
+      [
+        "▁ro",
+        "pe"
+      ],
+      [
+        "▁air",
+        "p"
+      ],
+      [
+        "▁g",
+        "ood"
+      ],
+      [
+        "▁mar",
+        "t"
+      ],
+      [
+        "he",
+        "ad"
+      ],
+      [
+        "▁st",
+        "ru"
+      ],
+      [
+        "at",
+        "h"
+      ],
+      [
+        "▁c",
+        "ir"
+      ],
+      [
+        "ll",
+        "."
+      ],
+      [
+        "▁sub",
+        "way"
+      ],
+      [
+        "▁pul",
+        "ling"
+      ],
+      [
+        "a",
+        "w"
+      ],
+      [
+        "n",
+        "ic"
+      ],
+      [
+        "le",
+        "."
+      ],
+      [
+        "▁hors",
+        "e."
+      ],
+      [
+        "▁sm",
+        "iling."
+      ],
+      [
+        "▁l",
+        "and"
+      ],
+      [
+        "▁v",
+        "i"
+      ],
+      [
+        "▁m",
+        "ud"
+      ],
+      [
+        "▁b",
+        "unch"
+      ],
+      [
+        "▁fl",
+        "ying"
+      ],
+      [
+        "c",
+        "her"
+      ],
+      [
+        "▁part",
+        "y."
+      ],
+      [
+        "▁wat",
+        "ches."
+      ],
+      [
+        "▁ele",
+        "ct"
+      ],
+      [
+        "▁sk",
+        "y"
+      ],
+      [
+        "▁bik",
+        "er"
+      ],
+      [
+        "c",
+        "u"
+      ],
+      [
+        "▁la",
+        "ke"
+      ],
+      [
+        "▁I",
+        "t"
+      ],
+      [
+        "in",
+        "ess"
+      ],
+      [
+        "▁men",
+        ","
+      ],
+      [
+        "▁cou",
+        "ch."
+      ],
+      [
+        "all",
+        "."
+      ],
+      [
+        "▁ve",
+        "get"
+      ],
+      [
+        "▁ap",
+        "ron"
+      ],
+      [
+        "▁p",
+        "upp"
+      ],
+      [
+        "▁",
+        "ear"
+      ],
+      [
+        "▁s",
+        "ame"
+      ],
+      [
+        "ere",
+        "nt"
+      ],
+      [
+        "▁cross",
+        "ing"
+      ],
+      [
+        "v",
+        "ed"
+      ],
+      [
+        "▁d",
+        "re"
+      ],
+      [
+        "▁se",
+        "e"
+      ],
+      [
+        "▁rock",
+        "s"
+      ],
+      [
+        "▁bar",
+        "."
+      ],
+      [
+        "▁ro",
+        "de"
+      ],
+      [
+        "▁fen",
+        "ce"
+      ],
+      [
+        "▁tru",
+        "ck."
+      ],
+      [
+        "un",
+        "g"
+      ],
+      [
+        "▁bl",
+        "an"
+      ],
+      [
+        "▁K",
+        "ids"
+      ],
+      [
+        "▁S",
+        "t"
+      ],
+      [
+        "ir",
+        "st"
+      ],
+      [
+        "▁pain",
+        "ted"
+      ],
+      [
+        "▁mart",
+        "ial"
+      ],
+      [
+        "▁diff",
+        "erent"
+      ],
+      [
+        "▁get",
+        "s"
+      ],
+      [
+        "b",
+        "b"
+      ],
+      [
+        "el",
+        "y"
+      ],
+      [
+        "▁m",
+        "em"
+      ],
+      [
+        "ess",
+        "ion"
+      ],
+      [
+        "in",
+        "ed"
+      ],
+      [
+        "▁for",
+        "m"
+      ],
+      [
+        "▁eat",
+        "s"
+      ],
+      [
+        "▁scar",
+        "f"
+      ],
+      [
+        "p",
+        "e."
+      ],
+      [
+        "t",
+        "h"
+      ],
+      [
+        "▁sa",
+        "fet"
+      ],
+      [
+        "▁hair",
+        "."
+      ],
+      [
+        "▁concre",
+        "te"
+      ],
+      [
+        "ing",
+        "s"
+      ],
+      [
+        "el",
+        "s"
+      ],
+      [
+        "on",
+        "es"
+      ],
+      [
+        "ad",
+        "ing"
+      ],
+      [
+        "▁lo",
+        "c"
+      ],
+      [
+        "▁w",
+        "i"
+      ],
+      [
+        "▁da",
+        "ught"
+      ],
+      [
+        "i",
+        "gh"
+      ],
+      [
+        "▁m",
+        "on"
+      ],
+      [
+        "▁bu",
+        "bble"
+      ],
+      [
+        "▁ey",
+        "es"
+      ],
+      [
+        "▁ra",
+        "is"
+      ],
+      [
+        "r",
+        "ist"
+      ],
+      [
+        "s",
+        "ide"
+      ],
+      [
+        "▁hors",
+        "es"
+      ],
+      [
+        "▁prepare",
+        "s"
+      ],
+      [
+        "▁b",
+        "y."
+      ],
+      [
+        "▁bus",
+        "iness"
+      ],
+      [
+        "▁ho",
+        "w"
+      ],
+      [
+        "▁laugh",
+        "ing"
+      ],
+      [
+        "▁to",
+        "u"
+      ],
+      [
+        "▁spor",
+        "ts"
+      ],
+      [
+        "▁t",
+        "urn"
+      ],
+      [
+        "▁fil",
+        "led"
+      ],
+      [
+        "▁gym",
+        "n"
+      ],
+      [
+        "▁music",
+        "."
+      ],
+      [
+        "▁wa",
+        "y"
+      ],
+      [
+        "▁surf",
+        "er"
+      ],
+      [
+        "▁snowboard",
+        "er"
+      ],
+      [
+        "▁swim",
+        "s"
+      ],
+      [
+        "▁mo",
+        "v"
+      ],
+      [
+        "▁H",
+        "e"
+      ],
+      [
+        "▁n",
+        "ap"
+      ],
+      [
+        "b",
+        "an"
+      ],
+      [
+        "▁safet",
+        "y"
+      ],
+      [
+        "▁w",
+        "rest"
+      ],
+      [
+        "▁gentle",
+        "man"
+      ],
+      [
+        "▁vide",
+        "o"
+      ],
+      [
+        "▁boo",
+        "k."
+      ],
+      [
+        "▁ste",
+        "ps"
+      ],
+      [
+        "▁D",
+        "o"
+      ],
+      [
+        "▁f",
+        "in"
+      ],
+      [
+        "▁at",
+        "h"
+      ],
+      [
+        "▁be",
+        "l"
+      ],
+      [
+        "▁flow",
+        "ers"
+      ],
+      [
+        "▁par",
+        "king"
+      ],
+      [
+        "▁st",
+        "ar"
+      ],
+      [
+        "▁pro",
+        "t"
+      ],
+      [
+        "▁veget",
+        "able"
+      ],
+      [
+        "▁le",
+        "g"
+      ],
+      [
+        "▁ch",
+        "ur"
+      ],
+      [
+        "k",
+        "en"
+      ],
+      [
+        "▁v",
+        "ar"
+      ],
+      [
+        "▁bow",
+        "ling"
+      ],
+      [
+        "▁read",
+        "s"
+      ],
+      [
+        "▁in",
+        "f"
+      ],
+      [
+        "▁park",
+        "ed"
+      ],
+      [
+        "u",
+        "ck"
+      ],
+      [
+        "▁tal",
+        "ks"
+      ],
+      [
+        "▁fl",
+        "ip"
+      ],
+      [
+        "▁hat",
+        ","
+      ],
+      [
+        "b",
+        "."
+      ],
+      [
+        "▁po",
+        "st"
+      ],
+      [
+        "a",
+        "ce"
+      ],
+      [
+        "▁pain",
+        "t"
+      ],
+      [
+        "v",
+        "en"
+      ],
+      [
+        "iv",
+        "id"
+      ],
+      [
+        "▁talking",
+        "."
+      ],
+      [
+        "▁sp",
+        "la"
+      ],
+      [
+        "▁m",
+        "ade"
+      ],
+      [
+        "▁car",
+        "ries"
+      ],
+      [
+        "▁t",
+        "ub"
+      ],
+      [
+        "▁clo",
+        "wn"
+      ],
+      [
+        "▁pro",
+        "f"
+      ],
+      [
+        "▁stud",
+        "ents"
+      ],
+      [
+        "p",
+        "s."
+      ],
+      [
+        "▁playing",
+        "."
+      ],
+      [
+        "▁h",
+        "am"
+      ],
+      [
+        "▁runn",
+        "ing."
+      ],
+      [
+        "in",
+        "s"
+      ],
+      [
+        "▁figh",
+        "ting"
+      ],
+      [
+        "s",
+        "er"
+      ],
+      [
+        "▁g",
+        "ard"
+      ],
+      [
+        "▁in",
+        "t"
+      ],
+      [
+        "▁sh",
+        "ot"
+      ],
+      [
+        "▁m",
+        "ult"
+      ],
+      [
+        "▁gro",
+        "cer"
+      ],
+      [
+        "▁v",
+        "is"
+      ],
+      [
+        "id",
+        "es"
+      ],
+      [
+        "▁compet",
+        "ing"
+      ],
+      [
+        "▁c",
+        "and"
+      ],
+      [
+        "lo",
+        "ok"
+      ],
+      [
+        "e",
+        "red"
+      ],
+      [
+        "▁tal",
+        "k"
+      ],
+      [
+        "▁fo",
+        "l"
+      ],
+      [
+        "in",
+        "."
+      ],
+      [
+        "el",
+        "."
+      ],
+      [
+        "ect",
+        "at"
+      ],
+      [
+        "▁mid",
+        "air"
+      ],
+      [
+        "▁gol",
+        "f"
+      ],
+      [
+        "▁f",
+        "irst"
+      ],
+      [
+        "▁ins",
+        "ide."
+      ],
+      [
+        "▁k",
+        "ay"
+      ],
+      [
+        "ct",
+        "ive"
+      ],
+      [
+        "▁bat",
+        "hing"
+      ],
+      [
+        "▁t",
+        "ries"
+      ],
+      [
+        "▁pl",
+        "an"
+      ],
+      [
+        "▁so",
+        "ld"
+      ],
+      [
+        "▁cellph",
+        "one"
+      ],
+      [
+        "ter",
+        "n"
+      ],
+      [
+        "b",
+        "ee"
+      ],
+      [
+        "▁tim",
+        "e"
+      ],
+      [
+        "▁blo",
+        "ck"
+      ],
+      [
+        "'",
+        "t"
+      ],
+      [
+        "▁c",
+        "hi"
+      ],
+      [
+        "▁brid",
+        "ge"
+      ],
+      [
+        "ic",
+        "e."
+      ],
+      [
+        "▁car",
+        "s"
+      ],
+      [
+        "▁win",
+        "ter"
+      ],
+      [
+        "▁sc",
+        "oot"
+      ],
+      [
+        "▁spe",
+        "aking"
+      ],
+      [
+        "▁wood",
+        "s."
+      ],
+      [
+        "c",
+        "ting"
+      ],
+      [
+        "▁to",
+        "y."
+      ],
+      [
+        "▁ed",
+        "ge"
+      ],
+      [
+        "b",
+        "and"
+      ],
+      [
+        "▁to",
+        "ur"
+      ],
+      [
+        "▁people",
+        ","
+      ],
+      [
+        "b",
+        "or"
+      ],
+      [
+        "ver",
+        "t"
+      ],
+      [
+        "▁rock",
+        "y"
+      ],
+      [
+        "▁clo",
+        "se"
+      ],
+      [
+        "ro",
+        "wn"
+      ],
+      [
+        "▁ph",
+        "one."
+      ],
+      [
+        "▁chair",
+        "."
+      ],
+      [
+        "▁stru",
+        "cture"
+      ],
+      [
+        "▁t",
+        "y"
+      ],
+      [
+        "▁coff",
+        "ee"
+      ],
+      [
+        "ca",
+        "use"
+      ],
+      [
+        "▁cle",
+        "an"
+      ],
+      [
+        "▁competition",
+        "."
+      ],
+      [
+        "ff",
+        "ic"
+      ],
+      [
+        "▁st",
+        "aring"
+      ],
+      [
+        "ris",
+        "bee"
+      ],
+      [
+        "i",
+        "es."
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "u",
+        "al"
+      ],
+      [
+        "op",
+        "."
+      ],
+      [
+        "▁be",
+        "cause"
+      ],
+      [
+        "▁t",
+        "ur"
+      ],
+      [
+        "▁v",
+        "es"
+      ],
+      [
+        "▁w",
+        "et"
+      ],
+      [
+        "▁vi",
+        "ol"
+      ],
+      [
+        "▁cl",
+        "iff"
+      ],
+      [
+        "▁indo",
+        "ors."
+      ],
+      [
+        "m",
+        "en"
+      ],
+      [
+        "▁la",
+        "pt"
+      ],
+      [
+        "▁team",
+        "s"
+      ],
+      [
+        "av",
+        "y"
+      ],
+      [
+        "room",
+        "."
+      ],
+      [
+        "▁bal",
+        "d"
+      ],
+      [
+        "▁fi",
+        "ght"
+      ],
+      [
+        "▁c",
+        "ard"
+      ],
+      [
+        "ar",
+        "n"
+      ],
+      [
+        "▁sc",
+        "ul"
+      ],
+      [
+        "el",
+        "ing"
+      ],
+      [
+        "▁concer",
+        "t."
+      ],
+      [
+        "▁teen",
+        "ag"
+      ],
+      [
+        "▁part",
+        "y"
+      ],
+      [
+        "▁wait",
+        "s"
+      ],
+      [
+        "▁wed",
+        "ding"
+      ],
+      [
+        "sel",
+        "f"
+      ],
+      [
+        "▁ba",
+        "re"
+      ],
+      [
+        "▁bat",
+        "h"
+      ],
+      [
+        "▁g",
+        "re"
+      ],
+      [
+        "la",
+        "t"
+      ],
+      [
+        "▁comput",
+        "er"
+      ],
+      [
+        "▁sitting",
+        "."
+      ],
+      [
+        "▁shop",
+        "."
+      ],
+      [
+        "▁s",
+        "ad"
+      ],
+      [
+        "▁be",
+        "er"
+      ],
+      [
+        "▁I",
+        "nd"
+      ],
+      [
+        "at",
+        "er"
+      ],
+      [
+        "or",
+        "d"
+      ],
+      [
+        "▁b",
+        "ur"
+      ],
+      [
+        "▁ne",
+        "ck"
+      ],
+      [
+        "▁stro",
+        "ller"
+      ],
+      [
+        "g",
+        "ing"
+      ],
+      [
+        "et",
+        "te"
+      ],
+      [
+        "▁art",
+        "ist"
+      ],
+      [
+        "▁pro",
+        "du"
+      ],
+      [
+        "▁out",
+        "."
+      ],
+      [
+        "▁man",
+        "'s"
+      ],
+      [
+        "▁le",
+        "ap"
+      ],
+      [
+        "▁tr",
+        "un"
+      ],
+      [
+        "▁happ",
+        "y"
+      ],
+      [
+        "▁fa",
+        "cing"
+      ],
+      [
+        "▁to",
+        "w"
+      ],
+      [
+        "k",
+        "er"
+      ],
+      [
+        "▁s",
+        "ell"
+      ],
+      [
+        "▁li",
+        "fe"
+      ],
+      [
+        "▁danc",
+        "ing."
+      ],
+      [
+        "▁chair",
+        "s"
+      ],
+      [
+        "▁g",
+        "un"
+      ],
+      [
+        "▁go",
+        "gg"
+      ],
+      [
+        "ic",
+        "ip"
+      ],
+      [
+        "r",
+        "y."
+      ],
+      [
+        "▁ski",
+        "er"
+      ],
+      [
+        "▁ind",
+        "ivid"
+      ],
+      [
+        "▁p",
+        "ile"
+      ],
+      [
+        "▁mar",
+        "ath"
+      ],
+      [
+        "▁drin",
+        "ks"
+      ],
+      [
+        "g",
+        "er"
+      ],
+      [
+        "▁tra",
+        "ffic"
+      ],
+      [
+        "▁ar",
+        "ts"
+      ],
+      [
+        "▁photogra",
+        "ph"
+      ],
+      [
+        "▁child",
+        "."
+      ],
+      [
+        "▁fore",
+        "ground"
+      ],
+      [
+        "▁de",
+        "cor"
+      ],
+      [
+        "▁on",
+        "ly"
+      ],
+      [
+        "▁on",
+        "look"
+      ],
+      [
+        "t",
+        "on"
+      ],
+      [
+        "al",
+        "low"
+      ],
+      [
+        "▁mo",
+        "ving"
+      ],
+      [
+        "▁",
+        "1"
+      ],
+      [
+        "▁cellph",
+        "one."
+      ],
+      [
+        "▁fi",
+        "xing"
+      ],
+      [
+        "▁young",
+        "er"
+      ],
+      [
+        "▁se",
+        "at"
+      ],
+      [
+        "▁boot",
+        "s"
+      ],
+      [
+        "a",
+        "ff"
+      ],
+      [
+        "▁k",
+        "ar"
+      ],
+      [
+        "al",
+        "m"
+      ],
+      [
+        "-s",
+        "lee"
+      ],
+      [
+        "-",
+        "aged"
+      ],
+      [
+        "▁che",
+        "er"
+      ],
+      [
+        "i",
+        "ke"
+      ],
+      [
+        "▁s",
+        "led"
+      ],
+      [
+        "▁p",
+        "ed"
+      ],
+      [
+        "▁jacket",
+        "."
+      ],
+      [
+        "▁swing",
+        "ing"
+      ],
+      [
+        "▁skateboard",
+        "ing"
+      ],
+      [
+        "▁hi",
+        "king"
+      ],
+      [
+        "▁poin",
+        "ting"
+      ],
+      [
+        "▁",
+        "V"
+      ],
+      [
+        "▁corn",
+        "er"
+      ],
+      [
+        "▁photograp",
+        "her"
+      ],
+      [
+        "▁kick",
+        "ing"
+      ],
+      [
+        "▁t",
+        "ri"
+      ],
+      [
+        "on",
+        "y"
+      ],
+      [
+        "▁L",
+        "ittle"
+      ],
+      [
+        "▁co",
+        "ok"
+      ],
+      [
+        "▁dinn",
+        "er"
+      ],
+      [
+        "itar",
+        "y"
+      ],
+      [
+        "▁fountain",
+        "."
+      ],
+      [
+        "▁scul",
+        "p"
+      ],
+      [
+        "▁co",
+        "ver"
+      ],
+      [
+        "▁le",
+        "ans"
+      ],
+      [
+        "▁sp",
+        "ra"
+      ],
+      [
+        "ac",
+        "her"
+      ],
+      [
+        "▁res",
+        "ting"
+      ],
+      [
+        "▁ra",
+        "c"
+      ],
+      [
+        "▁l",
+        "it"
+      ],
+      [
+        "▁glo",
+        "ves"
+      ],
+      [
+        "▁instrum",
+        "ents"
+      ],
+      [
+        "l",
+        "y."
+      ],
+      [
+        "▁sp",
+        "ectat"
+      ],
+      [
+        "▁music",
+        "al"
+      ],
+      [
+        "cor",
+        "d"
+      ],
+      [
+        "▁hel",
+        "ping"
+      ],
+      [
+        "▁shou",
+        "ld"
+      ],
+      [
+        "▁ev",
+        "ent"
+      ],
+      [
+        "ycl",
+        "ists"
+      ],
+      [
+        "▁brid",
+        "ge."
+      ],
+      [
+        "▁forest",
+        "."
+      ],
+      [
+        "lo",
+        "oking"
+      ],
+      [
+        "▁pat",
+        "h."
+      ],
+      [
+        "rist",
+        "m"
+      ],
+      [
+        "▁us",
+        "es"
+      ],
+      [
+        "▁mach",
+        "ine."
+      ],
+      [
+        "▁w",
+        "ell"
+      ],
+      [
+        "▁a",
+        "ct"
+      ],
+      [
+        "▁ob",
+        "ser"
+      ],
+      [
+        "▁set",
+        "ting"
+      ],
+      [
+        "▁pic",
+        "nic"
+      ],
+      [
+        "▁skateboard",
+        "."
+      ],
+      [
+        "▁ex",
+        "am"
+      ],
+      [
+        "ust",
+        "om"
+      ],
+      [
+        "er",
+        "c"
+      ],
+      [
+        "▁to",
+        "ol"
+      ],
+      [
+        "▁co",
+        "ld"
+      ],
+      [
+        "▁tra",
+        "sh"
+      ],
+      [
+        "▁par",
+        "ade."
+      ],
+      [
+        "▁concer",
+        "t"
+      ],
+      [
+        "▁stair",
+        "s."
+      ],
+      [
+        "▁s",
+        "hi"
+      ],
+      [
+        "▁pro",
+        "ject"
+      ],
+      [
+        "▁d",
+        "on"
+      ],
+      [
+        "ant",
+        "s."
+      ],
+      [
+        "▁fe",
+        "et"
+      ],
+      [
+        "▁G",
+        "rou"
+      ],
+      [
+        "▁roo",
+        "f"
+      ],
+      [
+        "▁daught",
+        "er"
+      ],
+      [
+        "▁fire",
+        "."
+      ],
+      [
+        "▁t",
+        "ro"
+      ],
+      [
+        "▁children",
+        "."
+      ],
+      [
+        "▁writ",
+        "ing"
+      ],
+      [
+        "▁bag",
+        "."
+      ],
+      [
+        "▁friend",
+        "s."
+      ],
+      [
+        "▁blond",
+        "-hair"
+      ],
+      [
+        "▁instrum",
+        "ent."
+      ],
+      [
+        "▁am",
+        "ong"
+      ],
+      [
+        "▁climb",
+        "s"
+      ],
+      [
+        "▁bik",
+        "ini"
+      ],
+      [
+        "ium",
+        "."
+      ],
+      [
+        "▁attemp",
+        "ting"
+      ],
+      [
+        "r",
+        "in"
+      ],
+      [
+        "▁",
+        "z"
+      ],
+      [
+        "▁bu",
+        "ll"
+      ]
+    ]
+  }
+}

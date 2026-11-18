@@ -1,0 +1,4 @@
+config,mean_acc,std,d_vs_anchor,P(better),P(rope),P(worse),verdict
+wdrop 0.0 [anchor],0.6966,0.0064,0.0,0.0,1.0,0.0,anchor
+wdrop 0.1,0.7011,0.0016,0.0044,0.46,0.464,0.077,inconclusive
+wdrop 0.2,0.6984,0.0039,0.0017,0.251,0.644,0.105,inconclusive

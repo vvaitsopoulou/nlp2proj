@@ -1,0 +1,4 @@
+config,mean_acc,std,d_vs_anchor,P(better),P(rope),P(worse),verdict
+3e-4,0.6205,0.001,0.005,0.503,0.484,0.012,inconclusive
+1e-3 [anchor],0.6155,0.0044,0.0,0.0,1.0,0.0,anchor
+3e-3,0.6086,0.005,-0.0069,0.027,0.316,0.658,inconclusive
