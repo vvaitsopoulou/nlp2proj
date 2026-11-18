@@ -1,0 +1,16 @@
+{
+  "accuracy": {
+    "pooled_full": 0.7912255700325733,
+    "recurrent_full": 0.8290920195439739,
+    "sparse_full": 0.754071661237785,
+    "pooled_hyponly": 0.6673452768729642,
+    "recurrent_hyponly": 0.676099348534202
+  },
+  "hard_n": 3268,
+  "hard_frac": 0.3326547231270358,
+  "hard_subset_acc": {
+    "sparse_full": 0.5140758873929009,
+    "pooled_full": 0.5553855569155447,
+    "recurrent_full": 0.6358629130966952
+  }
+}
