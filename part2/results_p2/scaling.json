@@ -1,0 +1,128 @@
+[
+  {
+    "system": "pooled",
+    "size": 10001,
+    "seed": 1001,
+    "dev_acc": 0.6522048364153628,
+    "sec": 9.6
+  },
+  {
+    "system": "pooled",
+    "size": 10001,
+    "seed": 1002,
+    "dev_acc": 0.6449908555171713,
+    "sec": 8.6
+  },
+  {
+    "system": "pooled",
+    "size": 40000,
+    "seed": 1001,
+    "dev_acc": 0.6924405608616135,
+    "sec": 31.3
+  },
+  {
+    "system": "pooled",
+    "size": 40000,
+    "seed": 1002,
+    "dev_acc": 0.695793537898801,
+    "sec": 30.8
+  },
+  {
+    "system": "pooled",
+    "size": 160000,
+    "seed": 1001,
+    "dev_acc": 0.7494411704938021,
+    "sec": 120.9
+  },
+  {
+    "system": "pooled",
+    "size": 160000,
+    "seed": 1002,
+    "dev_acc": 0.7485267222109327,
+    "sec": 120.7
+  },
+  {
+    "system": "pooled",
+    "size": 549191,
+    "seed": 1001,
+    "dev_acc": 0.7955700060963219,
+    "sec": 414.0
+  },
+  {
+    "system": "pooled",
+    "size": 549191,
+    "seed": 1002,
+    "dev_acc": 0.7985165616744564,
+    "sec": 414.7
+  },
+  {
+    "system": "recurrent",
+    "size": 10001,
+    "seed": 1001,
+    "dev_acc": 0.6760820971347287,
+    "sec": 12.6
+  },
+  {
+    "system": "recurrent",
+    "size": 10001,
+    "seed": 1002,
+    "dev_acc": 0.6697825645194067,
+    "sec": 12.8
+  },
+  {
+    "system": "recurrent",
+    "size": 40000,
+    "seed": 1001,
+    "dev_acc": 0.7544198333672018,
+    "sec": 39.7
+  },
+  {
+    "system": "recurrent",
+    "size": 40000,
+    "seed": 1002,
+    "dev_acc": 0.7484251168461695,
+    "sec": 41.2
+  },
+  {
+    "system": "recurrent",
+    "size": 160000,
+    "seed": 1001,
+    "dev_acc": 0.808169071326966,
+    "sec": 156.4
+  },
+  {
+    "system": "recurrent",
+    "size": 160000,
+    "seed": 1002,
+    "dev_acc": 0.8062385693964641,
+    "sec": 153.0
+  },
+  {
+    "system": "recurrent",
+    "size": 549191,
+    "seed": 1001,
+    "dev_acc": 0.8393619183092867,
+    "sec": 534.2
+  },
+  {
+    "system": "recurrent",
+    "size": 549191,
+    "seed": 1002,
+    "dev_acc": 0.8362121520016257,
+    "sec": 532.0
+  },
+  {
+    "system": "recurrent_h512",
+    "size": 549191,
+    "seed": 1001,
+    "dev_acc": 0.8334688071530176,
+    "sec": 530.6
+  },
+  {
+    "system": "recurrent_h512",
+    "size": 549191,
+    "seed": 1002,
+    "dev_acc": 0.837533021743548,
+    "sec": 528.2
+  }
+]
