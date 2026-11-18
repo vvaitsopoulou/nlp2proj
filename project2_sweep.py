@@ -309,6 +309,32 @@ def best_specs():
             "recurrent": axis("rnn_final")["maxpool"]}
 
 
+def build_nested_subsets(pool, sizes, seed=0, num_labels=3):
+    """Stratified, NESTED training subsets for the Tier-B learning curve. Each
+    class is shuffled once (seeded); a size-n subset takes a label-proportional
+    prefix of each class, so every smaller subset is contained in every larger
+    one — a clean 'more of the same data' progression. sizes with None or a value
+    >= len(pool) mean the full pool. Returns {actual_size: subset}, small->large."""
+    import random
+    rng = random.Random(seed)
+    by_label = {y: [] for y in range(num_labels)}
+    for item in pool:
+        by_label[int(item[1])].append(item)
+    for y in by_label:
+        rng.shuffle(by_label[y])
+    N = len(pool)
+    out = {}
+    for s in sizes:
+        n = N if (s is None or s >= N) else int(s)
+        sub = []
+        for y in range(num_labels):
+            k = round(len(by_label[y]) * n / N)
+            sub.extend(by_label[y][:k])
+        rng.shuffle(sub)                       # mix labels within the subset
+        out[len(sub)] = sub
+    return dict(sorted(out.items()))
+
+
 def init_variance(spec, fold_data, emb_models, tokenizers, init_seeds,
                   num_classes=3, device="cpu", verbose=True):
     """Fix ONE data split; retrain with several initialisation seeds; return the

@@ -52,6 +52,12 @@ def main():
     ap.add_argument("--init_seeds", nargs="*", type=int, default=[1001, 1002, 1003, 1004, 1005])
     ap.add_argument("--var_cvseed", type=int, default=0)
     ap.add_argument("--var_fold", type=int, default=0)
+    # Step 7 Tier-B learning curve (nested subsets, scored on official dev):
+    ap.add_argument("--scaling", action="store_true", help="run the Tier-B learning curve and exit")
+    ap.add_argument("--sizes", nargs="*", type=int, default=[10000, 40000, 160000, -1],
+                    help="training subset sizes; -1 means the full pool")
+    ap.add_argument("--rnn512", action="store_true",
+                    help="also run the exploratory hidden-512 recurrent at the largest size")
     args = ap.parse_args()
 
     if args.code_root:
@@ -121,6 +127,46 @@ def main():
         pd.DataFrame([{k: r[k] for k in ("model", "mean_acc", "init_std")} for r in rows]).to_csv(
             os.path.join(args.results, "variance.csv"), index=False)
         print("\nvariance.csv + variance.json written to", args.results, flush=True)
+        return
+
+    # ---- Step 7: Tier-B learning curve (nested subsets, scored on official dev) ----
+    if args.scaling:
+        import json as _json
+        sizes = [None if s < 0 else s for s in args.sizes]
+        subsets = SW.build_nested_subsets(train_pairs_all, sizes, seed=P2.SUBSAMPLE_SEED)
+        print("Tier-B subset sizes:", list(subsets.keys()), "| dev set:", len(val_pairs), flush=True)
+        # the tokenizer cache must cover the FULL pool, not just the 40k working set:
+        print("building the keep-tokenizer cache over the full pool (one-time)...", flush=True)
+        bt = part2.clslib.BasicTokenizer(lowercase=True, remove_punct=False,
+                                         remove_stopwords=False, language="english", vocab=emb_model.vocab)
+        sents_full = P2.sentences_in(train_pairs_all, val_pairs, test_pairs)
+        tok_keep = P2.CachedTokenizer(P2.build_id_cache(sents_full, bt), bt)
+
+        systems = dict(SW.best_specs())                      # pooled + recurrent, Tier-A configs
+        if args.rnn512:
+            systems["recurrent_h512"] = SW._spec(SW.RNN_ANCHOR,
+                                                 **{"enc_cfg.output": "maxpool", "enc_cfg.hidden": 512})
+        seeds2 = args.init_seeds[:2]
+        biggest = max(subsets)
+        rows = []
+        for name, spec in systems.items():
+            emb = emb_models[spec["emb_key"]]
+            for n, sub in subsets.items():
+                if name == "recurrent_h512" and n != biggest:   # exploratory: full size only
+                    continue
+                for seed in seeds2:
+                    with P2.Timer() as t:
+                        metrics, best = PP.train(sub, val_pairs, tok_keep, emb, spec["enc_cfg"],
+                                                 spec["combo"], spec["head_cfg"], spec["opt_cfg"],
+                                                 3, device=device, seed=seed)
+                    acc = metrics[best]["val_metrics"]["accuracy"]
+                    rows.append({"system": name, "size": n, "seed": seed,
+                                 "dev_acc": float(acc), "sec": round(t.sec, 1)})
+                    print(f"  {name:14s} size={n:6d} seed={seed} dev_acc={acc:.4f} ({t.sec:.0f}s)", flush=True)
+        pd.DataFrame(rows).to_csv(os.path.join(args.results, "scaling.csv"), index=False)
+        with open(os.path.join(args.results, "scaling.json"), "w") as fh:
+            _json.dump(rows, fh, indent=2)
+        print("\nscaling.csv + scaling.json written to", args.results, flush=True)
         return
 
     # ---- Step 4: sweep ----
